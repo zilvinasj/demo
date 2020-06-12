@@ -1,0 +1,25 @@
+spring:
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+  datasource:
+    platform: h2
+    url: jdbc:h2:mem:top
+
+
+top-application:
+  itunes:
+    url: http://localhost:8090
+
+caching:
+  specs:
+    albumCache:
+      timeout: 7
+      max: 200
+    artistCache:
+      timeout: 30
+      max: 200
+
+

@@ -1,0 +1,23 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    platform: h2
+    url: jdbc:h2:mem:top
+
+
+top-application:
+  itunes:
+    url: https://itunes.apple.com
+
+caching:
+  specs:
+    albumCache:
+      timeout: 7
+      max: 200
+    artistCache:
+      timeout: 30
+      max: 200
+
+
