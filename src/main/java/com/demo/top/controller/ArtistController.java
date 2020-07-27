@@ -5,7 +5,10 @@ import com.demo.top.model.artist.Artist;
 import com.demo.top.model.response.ApplicationAlbumResponse;
 import com.demo.top.model.response.ApplicationArtistResponse;
 import com.demo.top.service.ArtistService;
-import lombok.extern.slf4j.Slf4j;
+import java.util.List;
+import java.util.stream.Collectors;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,10 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
-@Slf4j
 @RestController
 @RequestMapping(value = "/v1/artist")
 public class ArtistController {
@@ -28,6 +27,8 @@ public class ArtistController {
         this.artistService = artistService;
     }
 
+    private static final Logger log = LoggerFactory.getLogger(ArtistController.class);
+
     @GetMapping(value = "/{artistName}", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<ApplicationArtistResponse> searchForArtist(@PathVariable String artistName) {
         log.info("Searching for artist: {}", artistName);
@@ -36,9 +37,8 @@ public class ArtistController {
                 .map(Artist::getArtistName)
                 .collect(Collectors.joining(",")));
 
-        ApplicationArtistResponse response = ApplicationArtistResponse.builder()
-                .artists(artistsByName)
-                .build();
+        ApplicationArtistResponse response = new ApplicationArtistResponse();
+        response.setArtists(artistsByName);
 
         return ResponseEntity.ok(response);
     }
@@ -57,9 +57,8 @@ public class ArtistController {
                 .map(Album::getCollectionName)
                 .collect(Collectors.joining(",")));
 
-        ApplicationAlbumResponse response = ApplicationAlbumResponse.builder()
-                .albums(albums)
-                .build();
+        ApplicationAlbumResponse response = new ApplicationAlbumResponse();
+        response.setAlbums(albums);
 
         return ResponseEntity.ok(response);
     }
