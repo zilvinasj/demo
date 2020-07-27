@@ -3,17 +3,18 @@ package com.demo.top.service;
 import com.demo.top.feign.ItunesService;
 import com.demo.top.model.album.Album;
 import com.demo.top.model.artist.Artist;
-import lombok.extern.slf4j.Slf4j;
+import java.util.List;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
-@Slf4j
 @Service
 public class ArtistService {
 
     private final ItunesService itunesService;
+
+    private static final Logger log = LoggerFactory.getLogger(ArtistService.class);
 
     public ArtistService(ItunesService itunesService) {
         this.itunesService = itunesService;

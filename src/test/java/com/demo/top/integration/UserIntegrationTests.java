@@ -1,5 +1,8 @@
 package com.demo.top.integration;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
+
 import com.demo.top.model.artist.Artist;
 import com.demo.top.model.response.ApplicationArtistResponse;
 import com.demo.top.utils.TestUtils;
@@ -14,9 +17,6 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 
 @DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_EACH_TEST_METHOD)
 @AutoConfigureMockMvc
@@ -64,7 +64,7 @@ class UserIntegrationTests {
 
         RequestBuilder requestBuilder = MockMvcRequestBuilders
                 .put("http://localhost:8080/v1/user/1/artists/favourites")
-                .content(TestUtils.getObjectAsString(Artist.builder()
+                .content(TestUtils.getObjectAsString(new Artist.ArtistBuilder()
                         .amgArtistId(expectedAmgArtistId)
                         .artistId(expectedArtistId)
                         .artistName(expectedName)

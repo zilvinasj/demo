@@ -2,8 +2,12 @@ package com.demo.top.configuration;
 
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.Ticker;
-import lombok.Data;
-import lombok.extern.slf4j.Slf4j;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.EnableCaching;
@@ -12,19 +16,14 @@ import org.springframework.cache.support.SimpleCacheManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
-
 @EnableCaching
-@Slf4j
 @Configuration
 @ConfigurationProperties(prefix = "caching")
-@Data
 public class CacheConfiguration {
 
     private Map<String, CacheSpec> specs;
+
+    private static final Logger log = LoggerFactory.getLogger(CacheConfiguration.class);
 
     @Bean
     public CacheManager cacheManager(Ticker ticker) {
@@ -58,10 +57,31 @@ public class CacheConfiguration {
         return Ticker.systemTicker();
     }
 
-    @Data
+    public void setSpecs(
+        Map<String, CacheSpec> specs) {
+        this.specs = specs;
+    }
+
     public static class CacheSpec {
         private Integer timeout;
         private Integer max = 200;
+
+
+        public Integer getTimeout() {
+            return timeout;
+        }
+
+        public void setTimeout(Integer timeout) {
+            this.timeout = timeout;
+        }
+
+        public Integer getMax() {
+            return max;
+        }
+
+        public void setMax(Integer max) {
+            this.max = max;
+        }
     }
 
 }

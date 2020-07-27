@@ -1,37 +1,36 @@
 package com.demo.top.integration;
 
-import com.demo.top.model.album.Album;
-import com.demo.top.model.album.AlbumSearchResponse;
-import com.demo.top.model.artist.Artist;
-import com.demo.top.model.artist.ArtistSearchResponse;
-import com.demo.top.model.response.ApplicationAlbumResponse;
-import com.demo.top.model.response.ApplicationArtistResponse;
-import com.demo.top.utils.TestUtils;
-import com.github.tomakehurst.wiremock.client.WireMock;
-import com.google.common.base.Charsets;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.mockito.MockitoAnnotations;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.cloud.contract.wiremock.AutoConfigureWireMock;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.RequestBuilder;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.List;
-import java.util.stream.Collectors;
-
 import static com.github.tomakehurst.wiremock.client.WireMock.aResponse;
 import static com.github.tomakehurst.wiremock.client.WireMock.anyUrl;
 import static com.github.tomakehurst.wiremock.client.WireMock.getRequestedFor;
 import static com.github.tomakehurst.wiremock.client.WireMock.stubFor;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
+
+import com.demo.top.model.album.Album;
+import com.demo.top.model.album.AlbumSearchResponse;
+import com.demo.top.model.artist.Artist;
+import com.demo.top.model.artist.ArtistSearchResponse;
+import com.demo.top.model.response.ApplicationAlbumResponse;
+import com.demo.top.model.response.ApplicationArtistResponse;
+import com.demo.top.utility.FileUtils;
+import com.demo.top.utils.TestUtils;
+import com.github.tomakehurst.wiremock.client.WireMock;
+import com.google.common.base.Charsets;
+import java.util.List;
+import java.util.stream.Collectors;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.cloud.contract.wiremock.AutoConfigureWireMock;
+import org.springframework.core.io.Resource;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.RequestBuilder;
+import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 @AutoConfigureWireMock(port = 8090)
 @AutoConfigureMockMvc
@@ -43,9 +42,15 @@ class ArtistIntegrationTests {
 
     @BeforeEach
     public void setup() {
-        MockitoAnnotations.initMocks(this);
         WireMock.reset();
+        //MockitoAnnotations.initMocks(this);
     }
+
+    @Value("classpath:__files/itunesArtistResponse.json")
+    private Resource itunesArtistResponse;
+
+    @Value("classpath:__files/itunesAlbumResponse.json")
+    private Resource itunesAlbumResponse;
 
     @Test
     void artistSearchSuccess() throws Exception {
@@ -55,7 +60,7 @@ class ArtistIntegrationTests {
                         .withBodyFile("itunesArtistResponse.json")));
 
         RequestBuilder requestBuilder = MockMvcRequestBuilders
-                .get("http://localhost:8080/v1/artist/Kanye");
+                .get("http://localhost:8090/v1/artist/Kanye");
 
 
         String response = mockMvc.perform(requestBuilder)
@@ -65,7 +70,7 @@ class ArtistIntegrationTests {
 
         List<Artist> artists = TestUtils.getStringAsObject(response, ApplicationArtistResponse.class).getArtists();
 
-        String mockContent = Files.readString(Paths.get(ClassLoader.getSystemClassLoader().getResource("__files/itunesArtistResponse.json").getPath()));
+        String mockContent = FileUtils.resourceAsString(itunesArtistResponse);
 
         List<String> expectedNames = TestUtils.getStringAsObject(mockContent, ArtistSearchResponse.class)
                 .getResults()
@@ -98,7 +103,7 @@ class ArtistIntegrationTests {
                         .withBodyFile("itunesAlbumResponse.json")));
 
         RequestBuilder requestBuilder = MockMvcRequestBuilders
-                .get("http://localhost:8080/v1/artist/0/albums");
+                .get("http://localhost:8090/v1/artist/0/albums");
 
 
         String response = mockMvc.perform(requestBuilder)
@@ -108,7 +113,7 @@ class ArtistIntegrationTests {
 
         List<Album> albums = TestUtils.getStringAsObject(response, ApplicationAlbumResponse.class).getAlbums();
 
-        String mockContent = Files.readString(Paths.get(ClassLoader.getSystemClassLoader().getResource("__files/itunesAlbumResponse.json").getPath()));
+        String mockContent = FileUtils.resourceAsString(itunesAlbumResponse);
 
         List<String> expectedNames = TestUtils.getStringAsObject(mockContent, AlbumSearchResponse.class)
                 .getResults()

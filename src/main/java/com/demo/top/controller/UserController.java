@@ -25,9 +25,8 @@ public class UserController {
     @GetMapping(value = "{userId}/artists/favourites", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<ApplicationArtistResponse> getFavouriteArtists(@PathVariable Long userId) {
 
-        ApplicationArtistResponse response = ApplicationArtistResponse.builder()
-                .artists(userService.getFavouritesForUser(userId))
-                .build();
+        ApplicationArtistResponse response = new ApplicationArtistResponse();
+        response.setArtists(userService.getFavouritesForUser(userId));
 
         return ResponseEntity.ok(response);
     }
