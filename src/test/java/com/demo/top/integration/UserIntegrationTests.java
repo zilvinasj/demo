@@ -3,7 +3,7 @@ package com.demo.top.integration;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 
-import com.demo.top.model.artist.Artist;
+import com.demo.top.domain.artist.FavoriteArtist;
 import com.demo.top.model.response.ApplicationArtistResponse;
 import com.demo.top.utils.TestUtils;
 import com.google.common.base.Charsets;
@@ -62,13 +62,14 @@ class UserIntegrationTests {
         Long expectedArtistId = 12L;
         String expectedName = "Duke Silver";
 
+        FavoriteArtist favoriteArtist = new FavoriteArtist();
+        favoriteArtist.setArtistName(expectedName);
+        favoriteArtist.setArtistId(expectedArtistId);
+        favoriteArtist.setAmgArtistId(expectedAmgArtistId);
+
         RequestBuilder requestBuilder = MockMvcRequestBuilders
                 .put("http://localhost:8080/v1/user/1/artists/favourites")
-                .content(TestUtils.getObjectAsString(new Artist.ArtistBuilder()
-                        .amgArtistId(expectedAmgArtistId)
-                        .artistId(expectedArtistId)
-                        .artistName(expectedName)
-                        .build()))
+                .content(TestUtils.getObjectAsString(favoriteArtist))
                 .contentType(MediaType.APPLICATION_JSON);
 
 
@@ -93,6 +94,29 @@ class UserIntegrationTests {
         assertEquals(expectedName, artistResponse.getArtists().get(1).getArtistName());
         assertEquals(expectedArtistId, artistResponse.getArtists().get(1).getArtistId());
         assertEquals(expectedAmgArtistId, artistResponse.getArtists().get(1).getAmgArtistId());
+
+
+    }
+
+    @Test
+    void userFavouritesSaveFailure() throws Exception {
+
+        Long expectedArtistId = 12L;
+        String expectedName = "Duke Silver";
+
+        FavoriteArtist favoriteArtist = new FavoriteArtist();
+        favoriteArtist.setArtistName(expectedName);
+        favoriteArtist.setArtistId(expectedArtistId);
+
+        RequestBuilder requestBuilder = MockMvcRequestBuilders
+            .put("http://localhost:8080/v1/user/1/artists/favourites")
+            .content(TestUtils.getObjectAsString(favoriteArtist))
+            .contentType(MediaType.APPLICATION_JSON);
+
+        mockMvc.perform(requestBuilder)
+            .andDo(print())
+            .andExpect(MockMvcResultMatchers.status().isBadRequest());
+
 
 
     }

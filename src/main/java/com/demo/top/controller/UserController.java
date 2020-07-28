@@ -1,8 +1,9 @@
 package com.demo.top.controller;
 
-import com.demo.top.model.artist.Artist;
+import com.demo.top.domain.artist.FavoriteArtist;
 import com.demo.top.model.response.ApplicationArtistResponse;
 import com.demo.top.service.UserService;
+import javax.validation.Valid;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -33,8 +34,8 @@ public class UserController {
 
     @PutMapping(value = "{userId}/artists/favourites", produces = MediaType.APPLICATION_JSON_VALUE)
     // Shouldn't use a persistent entity here, but doing it for simplicity
-    public ResponseEntity<Void> saveArtistAsFavourite(@PathVariable Long userId, @RequestBody Artist artist) {
-        userService.saveFavourite(userId, artist);
+    public ResponseEntity<Void> saveArtistAsFavourite(@PathVariable Long userId, @RequestBody @Valid FavoriteArtist favoriteArtist) {
+        userService.saveFavourite(userId, favoriteArtist);
         return ResponseEntity.ok().build();
     }
 

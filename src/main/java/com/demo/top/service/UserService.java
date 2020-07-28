@@ -1,5 +1,6 @@
 package com.demo.top.service;
 
+import com.demo.top.domain.artist.FavoriteArtist;
 import com.demo.top.exception.UserNotFoundException;
 import com.demo.top.model.artist.Artist;
 import com.demo.top.model.dto.UserDTO;
@@ -24,9 +25,15 @@ public class UserService {
                 .getFavourites();
     }
 
-    public void saveFavourite(Long userId, Artist artist) {
+    public void saveFavourite(Long userId, FavoriteArtist favoriteArtist) {
         UserDTO user = repository.findById(userId)
                 .orElseThrow(notFound(userId));
+
+        Artist artist = new Artist.ArtistBuilder()
+            .amgArtistId(favoriteArtist.getAmgArtistId())
+            .artistId(favoriteArtist.getArtistId())
+            .artistName(favoriteArtist.getArtistName())
+            .build();
 
         user.getFavourites().add(artist);
 
