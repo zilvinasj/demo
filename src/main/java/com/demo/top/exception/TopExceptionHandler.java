@@ -1,10 +1,13 @@
 package com.demo.top.exception;
 
 import feign.FeignException;
+import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -30,6 +33,15 @@ public class TopExceptionHandler {
     public ResponseEntity<ErrorBody> handle(MissingServletRequestParameterException e) {
         log.error("User did not supply a parameter: {}", e.getParameterName());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ErrorBody(e.getMessage()));
+    }
+
+    @ExceptionHandler
+    public ResponseEntity<ErrorBody> handle(MethodArgumentNotValidException e) {
+        log.error("User did not submit the request correctly: {}", e.getMessage());
+        String errorMessage = e.getBindingResult().getAllErrors().stream()
+            .map(DefaultMessageSourceResolvable::getDefaultMessage)
+            .collect(Collectors.joining(","));
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ErrorBody(errorMessage));
     }
 
     @ExceptionHandler
