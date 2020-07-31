@@ -14,4 +14,7 @@ public interface ItunesService {
 
     @GetMapping("/lookup?entity=album")
     AlbumSearchResponse findTopAlbumsForArtist(@RequestParam Long amgArtistId, @RequestParam Integer limit);
+
+    @GetMapping("/lookup?entity=track")
+    String findTracks(@RequestParam("term") String songName, @RequestParam Integer limit);
 }

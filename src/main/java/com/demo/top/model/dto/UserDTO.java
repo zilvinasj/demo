@@ -1,12 +1,14 @@
 package com.demo.top.model.dto;
 
 import com.demo.top.model.artist.Artist;
-import java.util.List;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
+import java.util.List;
 
 @Entity(name = "users")
 public class UserDTO {
@@ -18,8 +20,10 @@ public class UserDTO {
     @ManyToMany(cascade = CascadeType.ALL)
     private List<Artist> favourites;
 
-    private String userName;
+    @OneToMany
+    private List<PlaylistDTO> playlists;
 
+    private String userName;
 
     public Long getId() {
         return id;

@@ -1,7 +1,5 @@
 package com.demo.top.exception;
 
-import feign.FeignException;
-import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
@@ -12,16 +10,18 @@ import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+import java.util.stream.Collectors;
+
 @ControllerAdvice
 public class TopExceptionHandler {
 
     private static final Logger log = LoggerFactory.getLogger(TopExceptionHandler.class);
 
-    @ExceptionHandler
-    public ResponseEntity<Void> handle(FeignException e) {
-        log.error("Exception when communicating with Itunes: {}, cause: {}", e, e.getCause());
-        return ResponseEntity.status(HttpStatus.FAILED_DEPENDENCY).build();
-    }
+//    @ExceptionHandler
+//    public ResponseEntity<Void> handle(FeignException e) {
+//        log.error("Exception when communicating with Itunes: {}, cause: {}", e, e.getCause());
+//        return ResponseEntity.status(HttpStatus.FAILED_DEPENDENCY).build();
+//    }
 
     @ExceptionHandler
     public ResponseEntity<Void> handle(UserNotFoundException e) {
@@ -39,8 +39,8 @@ public class TopExceptionHandler {
     public ResponseEntity<ErrorBody> handle(MethodArgumentNotValidException e) {
         log.error("User did not submit the request correctly: {}", e.getMessage());
         String errorMessage = e.getBindingResult().getAllErrors().stream()
-            .map(DefaultMessageSourceResolvable::getDefaultMessage)
-            .collect(Collectors.joining(","));
+                .map(DefaultMessageSourceResolvable::getDefaultMessage)
+                .collect(Collectors.joining(","));
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ErrorBody(errorMessage));
     }
 

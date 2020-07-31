@@ -30,10 +30,10 @@ public class UserService {
                 .orElseThrow(notFound(userId));
 
         Artist artist = new Artist.ArtistBuilder()
-            .amgArtistId(favoriteArtist.getAmgArtistId())
-            .artistId(favoriteArtist.getArtistId())
-            .artistName(favoriteArtist.getArtistName())
-            .build();
+                .amgArtistId(favoriteArtist.getAmgArtistId())
+                .artistId(favoriteArtist.getArtistId())
+                .artistName(favoriteArtist.getArtistName())
+                .build();
 
         user.getFavourites().add(artist);
 
@@ -44,4 +44,7 @@ public class UserService {
         return () -> new UserNotFoundException(id);
     }
 
+    public UserDTO saveUser(UserDTO user) {
+        return repository.save(user);
+    }
 }
