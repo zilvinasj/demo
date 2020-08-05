@@ -1,6 +1,5 @@
 package com.demo.top.exception;
 
-import feign.FeignException;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.http.HttpStatus;
@@ -12,12 +11,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ExceptionHandlerTests {
 
     private final TopExceptionHandler handler = new TopExceptionHandler();
-
-    @Test
-    public void testFeignException() {
-        ResponseEntity responseEntity = handler.handle(Mockito.mock(FeignException.class));
-        assertEquals(HttpStatus.FAILED_DEPENDENCY, responseEntity.getStatusCode());
-    }
 
     @Test
     public void testAppAccessException() {

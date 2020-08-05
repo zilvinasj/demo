@@ -1,6 +1,5 @@
 package com.demo.top.exception;
 
-import feign.FeignException;
 import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,12 +15,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class TopExceptionHandler {
 
     private static final Logger log = LoggerFactory.getLogger(TopExceptionHandler.class);
-
-    @ExceptionHandler
-    public ResponseEntity<Void> handle(FeignException e) {
-        log.error("Exception when communicating with Itunes: {}, cause: {}", e, e.getCause());
-        return ResponseEntity.status(HttpStatus.FAILED_DEPENDENCY).build();
-    }
 
     @ExceptionHandler
     public ResponseEntity<Void> handle(UserNotFoundException e) {
