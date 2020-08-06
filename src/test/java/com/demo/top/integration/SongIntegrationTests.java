@@ -70,7 +70,7 @@ public class SongIntegrationTests {
         .collect(Collectors.toList());
 
     List<String> matchedNames = songs.stream()
-        .filter(it -> expectedNames.contains(it.getArtistName()))
+        .filter(it -> expectedNames.contains(it.getTrackName()))
         .map(Song::getTrackName)
         .collect(Collectors.toList());
 

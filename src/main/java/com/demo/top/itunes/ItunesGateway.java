@@ -1,5 +1,6 @@
 package com.demo.top.itunes;
 
+import com.demo.top.exception.FailedDependencyException;
 import com.demo.top.exception.InternalServerException;
 import com.demo.top.model.album.AlbumSearchResponse;
 import com.demo.top.model.artist.ArtistSearchResponse;
@@ -55,7 +56,7 @@ public class ItunesGateway {
 
   private <T> T jsonToObject(String json, Class<T> clazz) {
     if (json == null || json.length() == 0) {
-      throw new InternalServerException("no response body");
+      throw new FailedDependencyException("no response body");
     }
     T t;
     try {

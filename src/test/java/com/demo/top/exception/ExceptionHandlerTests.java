@@ -1,12 +1,12 @@
 package com.demo.top.exception;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MissingServletRequestParameterException;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ExceptionHandlerTests {
 
@@ -22,6 +22,12 @@ public class ExceptionHandlerTests {
     public void testInternalException() {
         ResponseEntity responseEntity = handler.handleInternal(Mockito.mock(Exception.class));
         assertEquals(HttpStatus.INTERNAL_SERVER_ERROR, responseEntity.getStatusCode());
+    }
+
+    @Test
+    public void testFailedDependencyException() {
+        ResponseEntity responseEntity = handler.handle(Mockito.mock(FailedDependencyException.class));
+        assertEquals(HttpStatus.FAILED_DEPENDENCY, responseEntity.getStatusCode());
     }
 
     @Test
