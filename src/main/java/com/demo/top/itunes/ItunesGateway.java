@@ -5,6 +5,7 @@ import com.demo.top.model.album.AlbumSearchResponse;
 import com.demo.top.model.artist.ArtistSearchResponse;
 import com.demo.top.model.song.SongSearchResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
@@ -19,6 +20,7 @@ public class ItunesGateway {
 
   private ObjectMapper objectMapper;
 
+  @Autowired
   public ItunesGateway(RestTemplate restTemplate,
       ObjectMapper objectMapper) {
     this.restTemplate = restTemplate;
