@@ -3,8 +3,8 @@ package com.demo.top.itunes;
 import com.demo.top.exception.InternalServerException;
 import com.demo.top.model.album.AlbumSearchResponse;
 import com.demo.top.model.artist.ArtistSearchResponse;
+import com.demo.top.model.song.SongSearchResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
@@ -19,6 +19,12 @@ public class ItunesGateway {
 
   private ObjectMapper objectMapper;
 
+  public ItunesGateway(RestTemplate restTemplate,
+      ObjectMapper objectMapper) {
+    this.restTemplate = restTemplate;
+    this.objectMapper = objectMapper;
+  }
+
   @Value("${top-application.itunes.url}")
   public void setItunesUrl(String itunesUrl) {
     this.itunesUrl = itunesUrl;
@@ -26,13 +32,23 @@ public class ItunesGateway {
 
 
   public ArtistSearchResponse getArtists(String artistName) {
-    ResponseEntity<String> responseEntity =  restTemplate.getForEntity(itunesUrl + "/search?entity=musicArtist&term=" + artistName, String.class);
-    return jsonToObject(responseEntity.getBody(),ArtistSearchResponse.class);
+    ResponseEntity<String> responseEntity = restTemplate
+        .getForEntity(itunesUrl + "/search?entity=musicArtist&term=" + artistName, String.class);
+    return jsonToObject(responseEntity.getBody(), ArtistSearchResponse.class);
   }
 
   public AlbumSearchResponse getAlbums(Long amgArtistId, Integer limit) {
-    ResponseEntity<String> responseEntity =  restTemplate.getForEntity(itunesUrl + "/lookup?entity=album&amgArtistId=" + amgArtistId + "&limit=" + limit, String.class);
-    return jsonToObject(responseEntity.getBody(),AlbumSearchResponse.class);
+    ResponseEntity<String> responseEntity = restTemplate.getForEntity(
+        itunesUrl + "/lookup?entity=album&amgArtistId=" + amgArtistId + "&limit=" + limit,
+        String.class);
+    return jsonToObject(responseEntity.getBody(), AlbumSearchResponse.class);
+  }
+
+  public SongSearchResponse getSongs(String songName) {
+    ResponseEntity<String> responseEntity = restTemplate.getForEntity(
+        itunesUrl + "/search?entity=musicTrack&term=" + songName,
+        String.class);
+    return jsonToObject(responseEntity.getBody(), SongSearchResponse.class);
   }
 
   private <T> T jsonToObject(String json, Class<T> clazz) {
@@ -46,16 +62,6 @@ public class ItunesGateway {
       throw new InternalServerException(ex.getMessage());
     }
     return t;
-  }
-
-  @Autowired
-  public void setRestTemplate(RestTemplate restTemplate) {
-    this.restTemplate = restTemplate;
-  }
-
-  @Autowired
-  public void setObjectMapper(ObjectMapper objectMapper) {
-    this.objectMapper = objectMapper;
   }
 
 }
