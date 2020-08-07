@@ -1,4 +1,4 @@
-package com.demo.top.service;
+package com.demo.top.service.artist;
 
 import com.demo.top.itunes.ItunesService;
 import com.demo.top.model.album.Album;
@@ -7,16 +7,18 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ArtistService {
+@Primary
+public class ItunesArtistService implements ArtistService {
 
     private final ItunesService itunesService;
 
-    private static final Logger log = LoggerFactory.getLogger(ArtistService.class);
+    private static final Logger log = LoggerFactory.getLogger(ItunesArtistService.class);
 
-    public ArtistService(ItunesService itunesService) {
+    public ItunesArtistService(ItunesService itunesService) {
         this.itunesService = itunesService;
     }
 
