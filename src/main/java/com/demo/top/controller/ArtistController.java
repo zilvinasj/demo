@@ -4,7 +4,7 @@ import com.demo.top.model.album.Album;
 import com.demo.top.model.artist.Artist;
 import com.demo.top.model.response.ApplicationAlbumResponse;
 import com.demo.top.model.response.ApplicationArtistResponse;
-import com.demo.top.service.ArtistService;
+import com.demo.top.service.artist.ArtistService;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.slf4j.Logger;
