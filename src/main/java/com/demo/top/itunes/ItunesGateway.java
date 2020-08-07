@@ -15,24 +15,19 @@ import org.springframework.web.client.RestTemplate;
 @Component
 public class ItunesGateway {
 
-  private RestTemplate restTemplate;
+  private final RestTemplate restTemplate;
 
-  private String itunesUrl;
+  private final String itunesUrl;
 
-  private ObjectMapper objectMapper;
+  private final ObjectMapper objectMapper;
 
   @Autowired
   public ItunesGateway(RestTemplate restTemplate,
-      ObjectMapper objectMapper) {
+      ObjectMapper objectMapper, @Value("${top-application.itunes.url}") String itunesUrl) {
     this.restTemplate = restTemplate;
     this.objectMapper = objectMapper;
-  }
-
-  @Value("${top-application.itunes.url}")
-  public void setItunesUrl(String itunesUrl) {
     this.itunesUrl = itunesUrl;
   }
-
 
   public ArtistSearchResponse getArtists(String artistName) {
     ResponseEntity<String> responseEntity = restTemplate
