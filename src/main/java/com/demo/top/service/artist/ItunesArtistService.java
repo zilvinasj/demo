@@ -1,6 +1,6 @@
 package com.demo.top.service.artist;
 
-import com.demo.top.feign.ItunesService;
+import com.demo.top.itunes.ItunesService;
 import com.demo.top.model.album.Album;
 import com.demo.top.model.artist.Artist;
 import java.util.List;

@@ -1,6 +1,5 @@
 package com.demo.top.exception;
 
-import feign.FeignException;
 import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,12 +17,6 @@ public class TopExceptionHandler {
     private static final Logger log = LoggerFactory.getLogger(TopExceptionHandler.class);
 
     @ExceptionHandler
-    public ResponseEntity<Void> handle(FeignException e) {
-        log.error("Exception when communicating with Itunes: {}, cause: {}", e, e.getCause());
-        return ResponseEntity.status(HttpStatus.FAILED_DEPENDENCY).build();
-    }
-
-    @ExceptionHandler
     public ResponseEntity<Void> handle(UserNotFoundException e) {
         log.error("Exception when trying to find user with id: {}", e.getUserId());
         return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
@@ -33,6 +26,12 @@ public class TopExceptionHandler {
     public ResponseEntity<ErrorBody> handle(MissingServletRequestParameterException e) {
         log.error("User did not supply a parameter: {}", e.getParameterName());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ErrorBody(e.getMessage()));
+    }
+
+    @ExceptionHandler
+    public ResponseEntity<ErrorBody> handle(FailedDependencyException e) {
+        log.error("There is a problem with the Itunes gateway: {}", e.getMessage());
+        return ResponseEntity.status(HttpStatus.FAILED_DEPENDENCY).body(new ErrorBody(e.getMessage()));
     }
 
     @ExceptionHandler
