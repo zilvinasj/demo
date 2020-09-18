@@ -23,20 +23,18 @@ Interface can be seen under /swagger-ui.html endpoint
 
 * Navigate to the root of the project
 
-* Run "mvn clean install"
+* Run `mvn spring-boot:run`
 
-* Run "java -jar target/top-1.0.0.jar"
-
-* API Swagger docs will become available at http://localhost:8080/swagger-ui.html
+* API Swagger docs will become available at `http://localhost:8080/swagger-ui.html`
 
 ### Steps to run the application with docker compose
 
 * Navigate to the root of the project
 
-* Run "mvn clean install"
+* Run `mvn clean install`
 
-* Run "docker-compose build"
+* Run `docker-compose build`
 
-* Run "docker-compose up"
+* Run `docker-compose up`
 
-* API Swagger docs will become available at http://localhost:8080/swagger-ui.html
+* API Swagger docs will become available at `http://localhost:8080/swagger-ui.html`
