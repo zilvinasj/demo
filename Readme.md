@@ -13,18 +13,30 @@ Interface can be seen under /swagger-ui.html endpoint
 * WireMock
 * JUnit
 
-### Running the application
- 
-Run Tests & Checks:
+### Required dependencies to run the project
 
-``mvn clean install``
+* Maven (download from https://maven.apache.org/download.cgi)
 
-Run Application:
+* JDK 11 (download from https://adoptopenjdk.net/?variant=openjdk11)
 
-If you want to start fresh don't change anything, if you want some pre-populated data rename `rename.me` to `data.sql`
+### Steps to run the application without docker compose
 
-1. ``mvn spring-boot:run``
+* Navigate to the root of the project
 
-2. Navigate to http://localhost:8080/swagger-ui.html to see all available endpoints
+* Run "mvn clean install"
 
-3. Navigate to http://localhost:8080/h2-console to see persistent data
+* Run "java -jar target/top-1.0.0.jar"
+
+* API Swagger docs will become available at http://localhost:8080/swagger-ui.html
+
+### Steps to run the application with docker compose
+
+* Navigate to the root of the project
+
+* Run "mvn clean install"
+
+* Run "docker-compose build"
+
+* Run "docker-compose up"
+
+* API Swagger docs will become available at http://localhost:8080/swagger-ui.html
