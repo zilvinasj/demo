@@ -1,16 +1,16 @@
 package com.demo.top.model.response;
 
-import com.demo.top.model.song.Song;
+import com.demo.top.model.track.Track;
 import java.util.List;
 
 public class ApplicationSongResponse {
-  private List<Song> songs;
+  private List<Track> tracks;
 
-  public List<Song> getSongs() {
-    return songs;
+  public List<Track> getSongs() {
+    return tracks;
   }
 
-  public void setSongs(List<Song> songs) {
-    this.songs = songs;
+  public void setSongs(List<Track> tracks) {
+    this.tracks = tracks;
   }
 }

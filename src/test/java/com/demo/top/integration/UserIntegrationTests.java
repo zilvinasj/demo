@@ -52,7 +52,7 @@ class UserIntegrationTests {
 
 
         assertEquals(1, artistResponse.getArtists().size());
-        assertEquals("Kanye West", artistResponse.getArtists().get(0).getArtistName());
+        assertEquals("Kanye West", artistResponse.getArtists().get(0).getName());
     }
 
     @Test
@@ -91,9 +91,9 @@ class UserIntegrationTests {
 
         // Assert on the second favourite artist, first was inserted as part of data.sql
         assertEquals(2, artistResponse.getArtists().size());
-        assertEquals(expectedName, artistResponse.getArtists().get(1).getArtistName());
-        assertEquals(expectedArtistId, artistResponse.getArtists().get(1).getArtistId());
-        assertEquals(expectedAmgArtistId, artistResponse.getArtists().get(1).getAmgArtistId());
+        assertEquals(expectedName, artistResponse.getArtists().get(1).getName());
+        assertEquals(expectedArtistId, artistResponse.getArtists().get(1).getId());
+        assertEquals(expectedAmgArtistId, artistResponse.getArtists().get(1).getPopularity());
 
 
     }

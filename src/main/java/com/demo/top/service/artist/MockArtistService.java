@@ -18,17 +18,17 @@ public class MockArtistService implements ArtistService {
   static final Map<String, List<Artist>> artistMap = Map.of(
       "Kanye", List.of(
           new Artist.ArtistBuilder()
-              .artistName("Kanye West")
-              .amgArtistId(1L)
-              .artistId(10L).build(),
+              .name("Kanye West")
+              .id("1L")
+              .popularity(10L).build(),
           new Artist.ArtistBuilder()
-              .artistName("Kanye W")
-              .amgArtistId(2L)
-              .artistId(20L).build(),
+              .name("Kanye W")
+              .id("2L")
+              .popularity(20L).build(),
           new Artist.ArtistBuilder()
-              .artistName("Kanye Wost")
-              .amgArtistId(3L)
-              .artistId(30L).build()
+              .name("Kanye Wost")
+              .id("3L")
+              .popularity(30L).build()
       ));
 
   static final Map<Long, List<Album>> albumMap = Map.of(

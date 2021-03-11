@@ -8,8 +8,11 @@ spring:
 
 
 top-application:
-  itunes:
-    url: https://itunes.apple.com
+  spotify:
+    url: https://api.spotify.com/v1/
+    token-url: https://accounts.spotify.com/api/token
+    client-id: e0feab84d9d94934916dbc91ed85425c
+    client-secret: fa8ea27fbe4c42adb624566b34684ba9
 
 caching:
   specs:
@@ -20,4 +23,11 @@ caching:
       timeout: 30
       max: 200
 
+management:
+  endpoints:
+    enabled-by-default: true
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
 

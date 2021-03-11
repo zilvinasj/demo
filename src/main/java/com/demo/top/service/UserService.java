@@ -29,13 +29,13 @@ public class UserService {
         UserDTO user = repository.findById(userId)
                 .orElseThrow(notFound(userId));
 
-        Artist artist = new Artist.ArtistBuilder()
-            .amgArtistId(favoriteArtist.getAmgArtistId())
-            .artistId(favoriteArtist.getArtistId())
-            .artistName(favoriteArtist.getArtistName())
-            .build();
+//        Artist artist = new Artist.ArtistBuilder()
+//            .name(favoriteArtist.getArtistName())
+//            .(favoriteArtist.getAmgArtistId())
+//            .artistId(favoriteArtist.getArtistId())
+//            .build();
 
-        user.getFavourites().add(artist);
+//        user.getFavourites().add(artist);
 
         repository.save(user);
     }
