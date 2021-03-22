@@ -1,6 +1,7 @@
 package com.demo.top.spotify;
 
 import com.demo.top.model.token.Token;
+import java.nio.charset.Charset;
 import java.util.Base64;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -42,7 +43,8 @@ public class SpotifyTokenGateway {
 
     String value = clientId + ":" + clientSecret;
 
-    headers.add(HttpHeaders.AUTHORIZATION, "Basic " + Base64.getEncoder().encodeToString(value.getBytes()));
+    headers.add(HttpHeaders.AUTHORIZATION, "Basic " + Base64.getEncoder().encodeToString(value.getBytes(
+        Charset.defaultCharset())));
 
     headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
 

@@ -26,6 +26,8 @@ public class SpotifyGateway {
 
   private final ObjectMapper objectMapper;
 
+  private static final String QUERY = "/search?q={q}&type={type}&limit={limit}";
+
   @Autowired
   public SpotifyGateway(RestTemplate restTemplate,
       ObjectMapper objectMapper,
@@ -36,43 +38,39 @@ public class SpotifyGateway {
   }
 
   public ArtistSearchResponse getArtists(String artistName, Token token) {
-    HttpHeaders headers = new HttpHeaders();
-
-    headers.add(HttpHeaders.AUTHORIZATION, "Bearer " + token.getAccessToken() );
-
-    HttpEntity httpEntity = new HttpEntity(headers);
+    HttpEntity<HttpHeaders> httpEntity = new HttpEntity<>(getHeaders(token));
 
     ResponseEntity<String> responseEntity = restTemplate.exchange(
-        spotifyUrl + "/search?q={q}&type={type}&limit={limit}", HttpMethod.GET, httpEntity, String.class, artistName, SearchType.ARTIST.getType(), 50);
+        spotifyUrl + QUERY, HttpMethod.GET, httpEntity, String.class, artistName, SearchType.ARTIST.getType(), 50);
 
     return jsonToObject(responseEntity.getBody(), ArtistSearchResponse.class);
   }
 
   public AlbumSearchResponse getAlbums(String albumName, Token token) {
-    HttpHeaders headers = new HttpHeaders();
-
-    headers.add(HttpHeaders.AUTHORIZATION, "Bearer " + token.getAccessToken() );
-
-    HttpEntity httpEntity = new HttpEntity(headers);
+    HttpEntity<HttpHeaders> httpEntity = new HttpEntity<>(getHeaders(token));
 
     ResponseEntity<String> responseEntity = restTemplate.exchange(
-        spotifyUrl + "/search?q={q}&type={type}&limit={limit}", HttpMethod.GET, httpEntity, String.class, albumName, SearchType.ALBUM.getType(), 50);
+        spotifyUrl + QUERY, HttpMethod.GET, httpEntity, String.class, albumName, SearchType.ALBUM.getType(), 50);
 
     return jsonToObject(responseEntity.getBody(), AlbumSearchResponse.class);
   }
 
   public TrackSearchResponse getTracks(String songName, Token token) {
+    HttpEntity<HttpHeaders> httpEntity = new HttpEntity<>(getHeaders(token));
+
+    ResponseEntity<String> responseEntity = restTemplate.exchange(
+        spotifyUrl + QUERY, HttpMethod.GET, httpEntity, String.class, songName,
+        SearchType.TRACK.getType(), 50);
+
+    return jsonToObject(responseEntity.getBody(), TrackSearchResponse.class);
+  }
+
+  private HttpHeaders getHeaders(Token token) {
     HttpHeaders headers = new HttpHeaders();
 
     headers.add(HttpHeaders.AUTHORIZATION, "Bearer " + token.getAccessToken() );
 
-    HttpEntity httpEntity = new HttpEntity(headers);
-
-    ResponseEntity<String> responseEntity = restTemplate.exchange(
-        spotifyUrl + "/search?q={q}&type={type}&limit={limit}", HttpMethod.GET, httpEntity, String.class, songName,
-        SearchType.TRACK.getType(), 50);
-
-    return jsonToObject(responseEntity.getBody(), TrackSearchResponse.class);
+    return headers;
   }
 
   private <T> T jsonToObject(String json, Class<T> clazz) {

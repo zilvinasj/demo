@@ -1,9 +1,7 @@
 package com.demo.top.model.artist;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import java.util.List;
 
-@Entity
 public class Artist {
 
     public Artist() { }
@@ -16,8 +14,9 @@ public class Artist {
 
     private String name;
     // Might be unnecessary
-    @Id
     private String id;
+
+    private List<String> genres;
 
     private Long popularity;
 
@@ -43,6 +42,14 @@ public class Artist {
 
     public void setPopularity(Long popularity) {
         this.popularity = popularity;
+    }
+
+    public List<String> getGenres() {
+        return genres;
+    }
+
+    public void setGenres(List<String> genres) {
+        this.genres = genres;
     }
 
     public static class ArtistBuilder {

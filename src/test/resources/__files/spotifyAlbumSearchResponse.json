@@ -1,0 +1,1924 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=village+people&type=album&offset=0&limit=50",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "UY", "UZ", "VC", "VN", "VU", "WS", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3I3YSq7ArvlwK3l49pq4oE"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3I3YSq7ArvlwK3l49pq4oE",
+      "id" : "3I3YSq7ArvlwK3l49pq4oE",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273dbf223dbb6abdffa642eb287",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02dbf223dbb6abdffa642eb287",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851dbf223dbb6abdffa642eb287",
+        "width" : 64
+      } ],
+      "name" : "YMCA",
+      "release_date" : "1978-01-01",
+      "release_date_precision" : "day",
+      "total_tracks" : 6,
+      "type" : "album",
+      "uri" : "spotify:album:3I3YSq7ArvlwK3l49pq4oE"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "UY", "UZ", "VC", "VN", "VU", "WS", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4oIOg6AgN5cTIQPk00RAWS"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4oIOg6AgN5cTIQPk00RAWS",
+      "id" : "4oIOg6AgN5cTIQPk00RAWS",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2732f38aff220050371b43eb57e",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e022f38aff220050371b43eb57e",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048512f38aff220050371b43eb57e",
+        "width" : 64
+      } ],
+      "name" : "Can't Stop the Music (Original Soundtrack 1980)",
+      "release_date" : "1980",
+      "release_date_precision" : "year",
+      "total_tracks" : 10,
+      "type" : "album",
+      "uri" : "spotify:album:4oIOg6AgN5cTIQPk00RAWS"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "UY", "UZ", "VC", "VN", "VU", "WS", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3iF4amlNW1yd9DoZ9WOD1i"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3iF4amlNW1yd9DoZ9WOD1i",
+      "id" : "3iF4amlNW1yd9DoZ9WOD1i",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273e387a0b68cda521a1cc7a743",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02e387a0b68cda521a1cc7a743",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851e387a0b68cda521a1cc7a743",
+        "width" : 64
+      } ],
+      "name" : "Go West In the Navy",
+      "release_date" : "1979",
+      "release_date_precision" : "year",
+      "total_tracks" : 6,
+      "type" : "album",
+      "uri" : "spotify:album:3iF4amlNW1yd9DoZ9WOD1i"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6MB1ND9U8BGyiBv3zx3Zca"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6MB1ND9U8BGyiBv3zx3Zca",
+      "id" : "6MB1ND9U8BGyiBv3zx3Zca",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2732e85e4a4d3b2756d6a8f14e4",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e022e85e4a4d3b2756d6a8f14e4",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048512e85e4a4d3b2756d6a8f14e4",
+        "width" : 64
+      } ],
+      "name" : "San Francisco Macho Man",
+      "release_date" : "1978",
+      "release_date_precision" : "year",
+      "total_tracks" : 9,
+      "type" : "album",
+      "uri" : "spotify:album:6MB1ND9U8BGyiBv3zx3Zca"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/7BlVhcOyT22FkcMAO1oVMX"
+      },
+      "href" : "https://api.spotify.com/v1/albums/7BlVhcOyT22FkcMAO1oVMX",
+      "id" : "7BlVhcOyT22FkcMAO1oVMX",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2736c24c5455aed822f09acb37e",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e026c24c5455aed822f09acb37e",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048516c24c5455aed822f09acb37e",
+        "width" : 64
+      } ],
+      "name" : "Village People Live and Sleazy",
+      "release_date" : "1980",
+      "release_date_precision" : "year",
+      "total_tracks" : 11,
+      "type" : "album",
+      "uri" : "spotify:album:7BlVhcOyT22FkcMAO1oVMX"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6OQwRKEE6MhYqz7IL0k14z"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6OQwRKEE6MhYqz7IL0k14z",
+        "id" : "6OQwRKEE6MhYqz7IL0k14z",
+        "name" : "Warsaw Village Band",
+        "type" : "artist",
+        "uri" : "spotify:artist:6OQwRKEE6MhYqz7IL0k14z"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6Qy8gFbIWzlk2vI2pTKqZq"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6Qy8gFbIWzlk2vI2pTKqZq",
+      "id" : "6Qy8gFbIWzlk2vI2pTKqZq",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2734cff4cf33de6e07c6c12cb88",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e024cff4cf33de6e07c6c12cb88",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048514cff4cf33de6e07c6c12cb88",
+        "width" : 64
+      } ],
+      "name" : "People's Spring",
+      "release_date" : "2002-12-01",
+      "release_date_precision" : "day",
+      "total_tracks" : 15,
+      "type" : "album",
+      "uri" : "spotify:album:6Qy8gFbIWzlk2vI2pTKqZq"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/202HZzqKvPsMHcbwnDZx7u"
+        },
+        "href" : "https://api.spotify.com/v1/artists/202HZzqKvPsMHcbwnDZx7u",
+        "id" : "202HZzqKvPsMHcbwnDZx7u",
+        "name" : "Dorian Electra",
+        "type" : "artist",
+        "uri" : "spotify:artist:202HZzqKvPsMHcbwnDZx7u"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2hThsqaVEAWhWPBXnaOfB9"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2hThsqaVEAWhWPBXnaOfB9",
+        "id" : "2hThsqaVEAWhWPBXnaOfB9",
+        "name" : "Pussy Riot",
+        "type" : "artist",
+        "uri" : "spotify:artist:2hThsqaVEAWhWPBXnaOfB9"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0qGRzjp27bq0ZaOlSPr3JU"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0qGRzjp27bq0ZaOlSPr3JU",
+      "id" : "0qGRzjp27bq0ZaOlSPr3JU",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273f6ac4b0b6cd1ab63b5bf3ca7",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02f6ac4b0b6cd1ab63b5bf3ca7",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851f6ac4b0b6cd1ab63b5bf3ca7",
+        "width" : 64
+      } ],
+      "name" : "My Agenda (feat. Village People & Pussy Riot)",
+      "release_date" : "2020-10-15",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:0qGRzjp27bq0ZaOlSPr3JU"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4SxCcdfrNIc3EduSRVIlz8"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4SxCcdfrNIc3EduSRVIlz8",
+      "id" : "4SxCcdfrNIc3EduSRVIlz8",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2736f81361cc5b9402d4d934c58",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e026f81361cc5b9402d4d934c58",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048516f81361cc5b9402d4d934c58",
+        "width" : 64
+      } ],
+      "name" : "Renaissance",
+      "release_date" : "1981",
+      "release_date_precision" : "year",
+      "total_tracks" : 8,
+      "type" : "album",
+      "uri" : "spotify:album:4SxCcdfrNIc3EduSRVIlz8"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0cE7LHLL43PXawHRkf0B2R"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0cE7LHLL43PXawHRkf0B2R",
+      "id" : "0cE7LHLL43PXawHRkf0B2R",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2731944da1a8b634aa6c4069455",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e021944da1a8b634aa6c4069455",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048511944da1a8b634aa6c4069455",
+        "width" : 64
+      } ],
+      "name" : "Sex Over the Phone",
+      "release_date" : "1985",
+      "release_date_precision" : "year",
+      "total_tracks" : 8,
+      "type" : "album",
+      "uri" : "spotify:album:0cE7LHLL43PXawHRkf0B2R"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7gP3bB2nilZXLfPHJhMdvc"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7gP3bB2nilZXLfPHJhMdvc",
+        "id" : "7gP3bB2nilZXLfPHJhMdvc",
+        "name" : "Foster The People",
+        "type" : "artist",
+        "uri" : "spotify:artist:7gP3bB2nilZXLfPHJhMdvc"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2thJq7gj65jZBtaiPVxpDK"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2thJq7gj65jZBtaiPVxpDK",
+      "id" : "2thJq7gj65jZBtaiPVxpDK",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273c5b7c240f75f48ade93f8803",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02c5b7c240f75f48ade93f8803",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851c5b7c240f75f48ade93f8803",
+        "width" : 64
+      } ],
+      "name" : "Spotify Sessions - Live From The Village",
+      "release_date" : "2014-04-15",
+      "release_date_precision" : "day",
+      "total_tracks" : 5,
+      "type" : "album",
+      "uri" : "spotify:album:2thJq7gj65jZBtaiPVxpDK"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/20USzb1P16nvP3DFGxmDF9"
+      },
+      "href" : "https://api.spotify.com/v1/albums/20USzb1P16nvP3DFGxmDF9",
+      "id" : "20USzb1P16nvP3DFGxmDF9",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2739f82a61c8741854ca45ab9a2",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e029f82a61c8741854ca45ab9a2",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048519f82a61c8741854ca45ab9a2",
+        "width" : 64
+      } ],
+      "name" : "Let's Go Back to the Dance Floor, Pt. 2 Remixes",
+      "release_date" : "2013-09-03",
+      "release_date_precision" : "day",
+      "total_tracks" : 23,
+      "type" : "album",
+      "uri" : "spotify:album:20USzb1P16nvP3DFGxmDF9"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0wLBaRRPIw457IFHTUDEvd"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0wLBaRRPIw457IFHTUDEvd",
+      "id" : "0wLBaRRPIw457IFHTUDEvd",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2739147d2d301b03297e22047c4",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e029147d2d301b03297e22047c4",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048519147d2d301b03297e22047c4",
+        "width" : 64
+      } ],
+      "name" : "Let's Go Back to the Dance Floor",
+      "release_date" : "2013-08-06",
+      "release_date_precision" : "day",
+      "total_tracks" : 11,
+      "type" : "album",
+      "uri" : "spotify:album:0wLBaRRPIw457IFHTUDEvd"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "ZA", "ZM" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4r0nvAwZncqupJl1hb260f"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4r0nvAwZncqupJl1hb260f",
+      "id" : "4r0nvAwZncqupJl1hb260f",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273402d5a163ce551e8d9bdd53c",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02402d5a163ce551e8d9bdd53c",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851402d5a163ce551e8d9bdd53c",
+        "width" : 64
+      } ],
+      "name" : "Magical Christmas",
+      "release_date" : "2019-11-04",
+      "release_date_precision" : "day",
+      "total_tracks" : 8,
+      "type" : "album",
+      "uri" : "spotify:album:4r0nvAwZncqupJl1hb260f"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0r0m8up7CjS8TJodH2HX7C"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0r0m8up7CjS8TJodH2HX7C",
+        "id" : "0r0m8up7CjS8TJodH2HX7C",
+        "name" : "Solee",
+        "type" : "artist",
+        "uri" : "spotify:artist:0r0m8up7CjS8TJodH2HX7C"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3I6VTLm67GhUmOTrhM0DzY"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3I6VTLm67GhUmOTrhM0DzY",
+        "id" : "3I6VTLm67GhUmOTrhM0DzY",
+        "name" : "Alyne",
+        "type" : "artist",
+        "uri" : "spotify:artist:3I6VTLm67GhUmOTrhM0DzY"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0fguR9Ci6mYqCriPyy1wQ5"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0fguR9Ci6mYqCriPyy1wQ5",
+      "id" : "0fguR9Ci6mYqCriPyy1wQ5",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27309b4b459b614134afbdf4b4d",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0209b4b459b614134afbdf4b4d",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485109b4b459b614134afbdf4b4d",
+        "width" : 64
+      } ],
+      "name" : "Neosensual / Village People",
+      "release_date" : "2017-06-12",
+      "release_date_precision" : "day",
+      "total_tracks" : 2,
+      "type" : "album",
+      "uri" : "spotify:album:0fguR9Ci6mYqCriPyy1wQ5"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1O92Byo1A9WdJwUdyFjS5Q"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1O92Byo1A9WdJwUdyFjS5Q",
+        "id" : "1O92Byo1A9WdJwUdyFjS5Q",
+        "name" : "Hazel Parikh",
+        "type" : "artist",
+        "uri" : "spotify:artist:1O92Byo1A9WdJwUdyFjS5Q"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0vAHKKb8wwEyu9yL52LxFj"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0vAHKKb8wwEyu9yL52LxFj",
+        "id" : "0vAHKKb8wwEyu9yL52LxFj",
+        "name" : "Polly Dmello",
+        "type" : "artist",
+        "uri" : "spotify:artist:0vAHKKb8wwEyu9yL52LxFj"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/1SsEWFpXEEyvNwmSm5maiZ"
+      },
+      "href" : "https://api.spotify.com/v1/albums/1SsEWFpXEEyvNwmSm5maiZ",
+      "id" : "1SsEWFpXEEyvNwmSm5maiZ",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2734ecf514b79d9a2a95d7837cf",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e024ecf514b79d9a2a95d7837cf",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048514ecf514b79d9a2a95d7837cf",
+        "width" : 64
+      } ],
+      "name" : "Hits By Hazel Of Village People",
+      "release_date" : "2021-01-26",
+      "release_date_precision" : "day",
+      "total_tracks" : 9,
+      "type" : "album",
+      "uri" : "spotify:album:1SsEWFpXEEyvNwmSm5maiZ"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1Vjug1h4HXCeplbouQEbV3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1Vjug1h4HXCeplbouQEbV3",
+        "id" : "1Vjug1h4HXCeplbouQEbV3",
+        "name" : "Academical Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:1Vjug1h4HXCeplbouQEbV3"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/08VjGZHgDvI5sysXq2hsSZ"
+      },
+      "href" : "https://api.spotify.com/v1/albums/08VjGZHgDvI5sysXq2hsSZ",
+      "id" : "08VjGZHgDvI5sysXq2hsSZ",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27326f8d98a82475c320a41a919",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0226f8d98a82475c320a41a919",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485126f8d98a82475c320a41a919",
+        "width" : 64
+      } ],
+      "name" : "Sorry for the Noise",
+      "release_date" : "2013-05-20",
+      "release_date_precision" : "day",
+      "total_tracks" : 13,
+      "type" : "album",
+      "uri" : "spotify:album:08VjGZHgDvI5sysXq2hsSZ"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1FayffGNhzXhYUq5b99M0k"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1FayffGNhzXhYUq5b99M0k",
+        "id" : "1FayffGNhzXhYUq5b99M0k",
+        "name" : "Rolling Milk Honey Carpets",
+        "type" : "artist",
+        "uri" : "spotify:artist:1FayffGNhzXhYUq5b99M0k"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0GKrMbHP4yigOjB9ZBkphO"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0GKrMbHP4yigOjB9ZBkphO",
+      "id" : "0GKrMbHP4yigOjB9ZBkphO",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273804a27fad8c53028e6a7d657",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02804a27fad8c53028e6a7d657",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851804a27fad8c53028e6a7d657",
+        "width" : 64
+      } ],
+      "name" : "village with many tall people",
+      "release_date" : "2019-12-11",
+      "release_date_precision" : "day",
+      "total_tracks" : 22,
+      "type" : "album",
+      "uri" : "spotify:album:0GKrMbHP4yigOjB9ZBkphO"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1Vjug1h4HXCeplbouQEbV3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1Vjug1h4HXCeplbouQEbV3",
+        "id" : "1Vjug1h4HXCeplbouQEbV3",
+        "name" : "Academical Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:1Vjug1h4HXCeplbouQEbV3"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "ZA", "ZM" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4p1MbeTk4QFPjb4Q2BWFeH"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4p1MbeTk4QFPjb4Q2BWFeH",
+      "id" : "4p1MbeTk4QFPjb4Q2BWFeH",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273d1af15c20b12748316ce1193",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02d1af15c20b12748316ce1193",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851d1af15c20b12748316ce1193",
+        "width" : 64
+      } ],
+      "name" : "Plausible Deniability",
+      "release_date" : "2018-03-17",
+      "release_date_precision" : "day",
+      "total_tracks" : 14,
+      "type" : "album",
+      "uri" : "spotify:album:4p1MbeTk4QFPjb4Q2BWFeH"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1Vjug1h4HXCeplbouQEbV3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1Vjug1h4HXCeplbouQEbV3",
+        "id" : "1Vjug1h4HXCeplbouQEbV3",
+        "name" : "Academical Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:1Vjug1h4HXCeplbouQEbV3"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2m657BCx5LQ1ZlaW24RRGI"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2m657BCx5LQ1ZlaW24RRGI",
+      "id" : "2m657BCx5LQ1ZlaW24RRGI",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27377589bb1ffa2cb520d959b80",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0277589bb1ffa2cb520d959b80",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485177589bb1ffa2cb520d959b80",
+        "width" : 64
+      } ],
+      "name" : "Another Round",
+      "release_date" : "2015-03-20",
+      "release_date_precision" : "day",
+      "total_tracks" : 12,
+      "type" : "album",
+      "uri" : "spotify:album:2m657BCx5LQ1ZlaW24RRGI"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1Vjug1h4HXCeplbouQEbV3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1Vjug1h4HXCeplbouQEbV3",
+        "id" : "1Vjug1h4HXCeplbouQEbV3",
+        "name" : "Academical Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:1Vjug1h4HXCeplbouQEbV3"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3z2EBJy92WtIUHqFQUllIp"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3z2EBJy92WtIUHqFQUllIp",
+      "id" : "3z2EBJy92WtIUHqFQUllIp",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27358781d9918a05ab93a822ffb",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0258781d9918a05ab93a822ffb",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485158781d9918a05ab93a822ffb",
+        "width" : 64
+      } ],
+      "name" : "Bare Maximum",
+      "release_date" : "2021-03-12",
+      "release_date_precision" : "day",
+      "total_tracks" : 13,
+      "type" : "album",
+      "uri" : "spotify:album:3z2EBJy92WtIUHqFQUllIp"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1Vjug1h4HXCeplbouQEbV3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1Vjug1h4HXCeplbouQEbV3",
+        "id" : "1Vjug1h4HXCeplbouQEbV3",
+        "name" : "Academical Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:1Vjug1h4HXCeplbouQEbV3"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/7cWClQUX5QlydoMnjea063"
+      },
+      "href" : "https://api.spotify.com/v1/albums/7cWClQUX5QlydoMnjea063",
+      "id" : "7cWClQUX5QlydoMnjea063",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273b23e7b32156bcefbd248a975",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02b23e7b32156bcefbd248a975",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851b23e7b32156bcefbd248a975",
+        "width" : 64
+      } ],
+      "name" : "Academical Is Not a Word",
+      "release_date" : "2008-09-03",
+      "release_date_precision" : "day",
+      "total_tracks" : 12,
+      "type" : "album",
+      "uri" : "spotify:album:7cWClQUX5QlydoMnjea063"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7vPsZigSvKZoi9ejnxvkqe"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7vPsZigSvKZoi9ejnxvkqe",
+        "id" : "7vPsZigSvKZoi9ejnxvkqe",
+        "name" : "Village People Folk Band",
+        "type" : "artist",
+        "uri" : "spotify:artist:7vPsZigSvKZoi9ejnxvkqe"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3FblDFsbFsLzPAleFABVaD"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3FblDFsbFsLzPAleFABVaD",
+      "id" : "3FblDFsbFsLzPAleFABVaD",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273e01bbd60c2293d6f7da17038",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02e01bbd60c2293d6f7da17038",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851e01bbd60c2293d6f7da17038",
+        "width" : 64
+      } ],
+      "name" : "Treasures Of Ukrainian Folk Music (Traditional Songs and Instrumental Music of the Left-Bank of Kyiv Region)",
+      "release_date" : "2013-11-24",
+      "release_date_precision" : "day",
+      "total_tracks" : 31,
+      "type" : "album",
+      "uri" : "spotify:album:3FblDFsbFsLzPAleFABVaD"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7ilFZMC1OWFRBNRTupwrRI"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7ilFZMC1OWFRBNRTupwrRI",
+        "id" : "7ilFZMC1OWFRBNRTupwrRI",
+        "name" : "Tina Smith",
+        "type" : "artist",
+        "uri" : "spotify:artist:7ilFZMC1OWFRBNRTupwrRI"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "ZA", "ZM" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0GXuLa7dQitRC5XPJCeJvO"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0GXuLa7dQitRC5XPJCeJvO",
+      "id" : "0GXuLa7dQitRC5XPJCeJvO",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273bfca865ad3f002c8e3bab096",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02bfca865ad3f002c8e3bab096",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851bfca865ad3f002c8e3bab096",
+        "width" : 64
+      } ],
+      "name" : "Village People",
+      "release_date" : "2017-04-29",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:0GXuLa7dQitRC5XPJCeJvO"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3EIqD5Glo7XrkIaw9s7K0n"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3EIqD5Glo7XrkIaw9s7K0n",
+        "id" : "3EIqD5Glo7XrkIaw9s7K0n",
+        "name" : "Kene Himself",
+        "type" : "artist",
+        "uri" : "spotify:artist:3EIqD5Glo7XrkIaw9s7K0n"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0NSY8XBf0pfcYnpFjQeCah"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0NSY8XBf0pfcYnpFjQeCah",
+      "id" : "0NSY8XBf0pfcYnpFjQeCah",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2737f1163a7e801130235df1fa2",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e027f1163a7e801130235df1fa2",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048517f1163a7e801130235df1fa2",
+        "width" : 64
+      } ],
+      "name" : "Village People",
+      "release_date" : "2020-02-05",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:0NSY8XBf0pfcYnpFjQeCah"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4HkLkEcdAIQuBZ89XluEb9"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4HkLkEcdAIQuBZ89XluEb9",
+        "id" : "4HkLkEcdAIQuBZ89XluEb9",
+        "name" : "Brisco Oyiodudu",
+        "type" : "artist",
+        "uri" : "spotify:artist:4HkLkEcdAIQuBZ89XluEb9"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3pD3NkggdV5a1lmAibXkJw"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3pD3NkggdV5a1lmAibXkJw",
+      "id" : "3pD3NkggdV5a1lmAibXkJw",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27303b632f7561e89a125ea773b",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0203b632f7561e89a125ea773b",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485103b632f7561e89a125ea773b",
+        "width" : 64
+      } ],
+      "name" : "Village People",
+      "release_date" : "2021-01-26",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:3pD3NkggdV5a1lmAibXkJw"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0r0m8up7CjS8TJodH2HX7C"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0r0m8up7CjS8TJodH2HX7C",
+        "id" : "0r0m8up7CjS8TJodH2HX7C",
+        "name" : "Solee",
+        "type" : "artist",
+        "uri" : "spotify:artist:0r0m8up7CjS8TJodH2HX7C"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3I6VTLm67GhUmOTrhM0DzY"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3I6VTLm67GhUmOTrhM0DzY",
+        "id" : "3I6VTLm67GhUmOTrhM0DzY",
+        "name" : "Alyne",
+        "type" : "artist",
+        "uri" : "spotify:artist:3I6VTLm67GhUmOTrhM0DzY"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0266SeEdGNOMCP5krRD9sM"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0266SeEdGNOMCP5krRD9sM",
+      "id" : "0266SeEdGNOMCP5krRD9sM",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2734489b8e18eb6091e53841307",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e024489b8e18eb6091e53841307",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048514489b8e18eb6091e53841307",
+        "width" : 64
+      } ],
+      "name" : "Neosensual / Village People",
+      "release_date" : "2017-06-12",
+      "release_date_precision" : "day",
+      "total_tracks" : 2,
+      "type" : "album",
+      "uri" : "spotify:album:0266SeEdGNOMCP5krRD9sM"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1uS6Hmts4hQarp91GrKedH"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1uS6Hmts4hQarp91GrKedH",
+        "id" : "1uS6Hmts4hQarp91GrKedH",
+        "name" : "Gyerphage",
+        "type" : "artist",
+        "uri" : "spotify:artist:1uS6Hmts4hQarp91GrKedH"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0JbIn3TPjZ2Bi6m7yrHnpv"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0JbIn3TPjZ2Bi6m7yrHnpv",
+      "id" : "0JbIn3TPjZ2Bi6m7yrHnpv",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273c36cb86962c700698b34ef61",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02c36cb86962c700698b34ef61",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851c36cb86962c700698b34ef61",
+        "width" : 64
+      } ],
+      "name" : "The Village People",
+      "release_date" : "2017",
+      "release_date_precision" : "year",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:0JbIn3TPjZ2Bi6m7yrHnpv"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3vXtcKV87tP8Ivx54QRz9Q"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3vXtcKV87tP8Ivx54QRz9Q",
+        "id" : "3vXtcKV87tP8Ivx54QRz9Q",
+        "name" : "Sagas",
+        "type" : "artist",
+        "uri" : "spotify:artist:3vXtcKV87tP8Ivx54QRz9Q"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/7Kulbi2S2AznGs47hUjwb9"
+      },
+      "href" : "https://api.spotify.com/v1/albums/7Kulbi2S2AznGs47hUjwb9",
+      "id" : "7Kulbi2S2AznGs47hUjwb9",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27389cbea0d7068690fe84541ea",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0289cbea0d7068690fe84541ea",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485189cbea0d7068690fe84541ea",
+        "width" : 64
+      } ],
+      "name" : "My Village People",
+      "release_date" : "2019-03-21",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:7Kulbi2S2AznGs47hUjwb9"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3nhjBuFIE5CklB3uwaDJz4"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3nhjBuFIE5CklB3uwaDJz4",
+        "id" : "3nhjBuFIE5CklB3uwaDJz4",
+        "name" : "Rainbow Mafia",
+        "type" : "artist",
+        "uri" : "spotify:artist:3nhjBuFIE5CklB3uwaDJz4"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/1SzXd2sRvZCrX5aZ16UAtk"
+      },
+      "href" : "https://api.spotify.com/v1/albums/1SzXd2sRvZCrX5aZ16UAtk",
+      "id" : "1SzXd2sRvZCrX5aZ16UAtk",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27348e455df58a7c34a2ef25702",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0248e455df58a7c34a2ef25702",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485148e455df58a7c34a2ef25702",
+        "width" : 64
+      } ],
+      "name" : "The Village Where the People All Bite (Unmastered)",
+      "release_date" : "2020-10-02",
+      "release_date_precision" : "day",
+      "total_tracks" : 11,
+      "type" : "album",
+      "uri" : "spotify:album:1SzXd2sRvZCrX5aZ16UAtk"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3NVV4g121SK9rga0WpTPFi"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3NVV4g121SK9rga0WpTPFi",
+        "id" : "3NVV4g121SK9rga0WpTPFi",
+        "name" : "Oxnard Angels",
+        "type" : "artist",
+        "uri" : "spotify:artist:3NVV4g121SK9rga0WpTPFi"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0t7FyeSswkNYPgoDsdvqCl"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0t7FyeSswkNYPgoDsdvqCl",
+        "id" : "0t7FyeSswkNYPgoDsdvqCl",
+        "name" : "People Over the Moon",
+        "type" : "artist",
+        "uri" : "spotify:artist:0t7FyeSswkNYPgoDsdvqCl"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/1r9vnSaL4vPNrfwnoqOC62"
+      },
+      "href" : "https://api.spotify.com/v1/albums/1r9vnSaL4vPNrfwnoqOC62",
+      "id" : "1r9vnSaL4vPNrfwnoqOC62",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27394867d627f88843500aee398",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0294867d627f88843500aee398",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485194867d627f88843500aee398",
+        "width" : 64
+      } ],
+      "name" : "Temple Village",
+      "release_date" : "2020-08-02",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:1r9vnSaL4vPNrfwnoqOC62"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6xgJxPdDarElUHt5HYPela"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6xgJxPdDarElUHt5HYPela",
+        "id" : "6xgJxPdDarElUHt5HYPela",
+        "name" : "Village Man's Store",
+        "type" : "artist",
+        "uri" : "spotify:artist:6xgJxPdDarElUHt5HYPela"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4GXbC0mKNCEHZjTUIOSf5o"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4GXbC0mKNCEHZjTUIOSf5o",
+      "id" : "4GXbC0mKNCEHZjTUIOSf5o",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273905b68f5ea09b0e0fc94360c",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02905b68f5ea09b0e0fc94360c",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851905b68f5ea09b0e0fc94360c",
+        "width" : 64
+      } ],
+      "name" : "Adult / People Get Lady",
+      "release_date" : "2020-04-01",
+      "release_date_precision" : "day",
+      "total_tracks" : 2,
+      "type" : "album",
+      "uri" : "spotify:album:4GXbC0mKNCEHZjTUIOSf5o"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6N3H7BKQ2bH2dJa4c4HLsQ"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6N3H7BKQ2bH2dJa4c4HLsQ",
+        "id" : "6N3H7BKQ2bH2dJa4c4HLsQ",
+        "name" : "Koivuine Ensemble of Ladva Village",
+        "type" : "artist",
+        "uri" : "spotify:artist:6N3H7BKQ2bH2dJa4c4HLsQ"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4Y6fqBwGueBKhokiKAaPc3"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4Y6fqBwGueBKhokiKAaPc3",
+        "id" : "4Y6fqBwGueBKhokiKAaPc3",
+        "name" : "Duo of Kurba Village",
+        "type" : "artist",
+        "uri" : "spotify:artist:4Y6fqBwGueBKhokiKAaPc3"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3EMbIxtYyA8iB9lFeGZtDt"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3EMbIxtYyA8iB9lFeGZtDt",
+      "id" : "3EMbIxtYyA8iB9lFeGZtDt",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273cbcd1595451fd2bee4e28ff6",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02cbcd1595451fd2bee4e28ff6",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851cbcd1595451fd2bee4e28ff6",
+        "width" : 64
+      } ],
+      "name" : "Ladva, Kurba: Songs of Veps People, Russia",
+      "release_date" : "2020-11-02",
+      "release_date_precision" : "day",
+      "total_tracks" : 25,
+      "type" : "album",
+      "uri" : "spotify:album:3EMbIxtYyA8iB9lFeGZtDt"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/59SuNJvbVrMpSpNrUzo1gS"
+      },
+      "href" : "https://api.spotify.com/v1/albums/59SuNJvbVrMpSpNrUzo1gS",
+      "id" : "59SuNJvbVrMpSpNrUzo1gS",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273949f27bda88e1c1eb4f69df7",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02949f27bda88e1c1eb4f69df7",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851949f27bda88e1c1eb4f69df7",
+        "width" : 64
+      } ],
+      "name" : "Let's Go Back to the Dance Floor",
+      "release_date" : "2013-09-17",
+      "release_date_precision" : "day",
+      "total_tracks" : 2,
+      "type" : "album",
+      "uri" : "spotify:album:59SuNJvbVrMpSpNrUzo1gS"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0dCKce6tJJdHvlWnDMwzPW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0dCKce6tJJdHvlWnDMwzPW",
+        "id" : "0dCKce6tJJdHvlWnDMwzPW",
+        "name" : "Village People",
+        "type" : "artist",
+        "uri" : "spotify:artist:0dCKce6tJJdHvlWnDMwzPW"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6MH5Xu6YtgfEo2WXB1wYGq"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6MH5Xu6YtgfEo2WXB1wYGq",
+      "id" : "6MH5Xu6YtgfEo2WXB1wYGq",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2730fa5e2a95165154611614d63",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e020fa5e2a95165154611614d63",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048510fa5e2a95165154611614d63",
+        "width" : 64
+      } ],
+      "name" : "A Very Merry Christmas to You",
+      "release_date" : "2018-10-31",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:6MH5Xu6YtgfEo2WXB1wYGq"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7vPsZigSvKZoi9ejnxvkqe"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7vPsZigSvKZoi9ejnxvkqe",
+        "id" : "7vPsZigSvKZoi9ejnxvkqe",
+        "name" : "Village People Folk Band",
+        "type" : "artist",
+        "uri" : "spotify:artist:7vPsZigSvKZoi9ejnxvkqe"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/7qeenEwy5Ke3EirPZ9MbRf"
+      },
+      "href" : "https://api.spotify.com/v1/albums/7qeenEwy5Ke3EirPZ9MbRf",
+      "id" : "7qeenEwy5Ke3EirPZ9MbRf",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273c379456e1226413eab2232c9",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02c379456e1226413eab2232c9",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851c379456e1226413eab2232c9",
+        "width" : 64
+      } ],
+      "name" : "As It Was from Ancient Times: Traditional Folk Songs of the Right-Bank of Kyiv Region",
+      "release_date" : "2007-05-25",
+      "release_date_precision" : "day",
+      "total_tracks" : 36,
+      "type" : "album",
+      "uri" : "spotify:album:7qeenEwy5Ke3EirPZ9MbRf"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5QEZ8qPZSxIvzrkJCxlsn7"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5QEZ8qPZSxIvzrkJCxlsn7",
+        "id" : "5QEZ8qPZSxIvzrkJCxlsn7",
+        "name" : "Navy Gravy",
+        "type" : "artist",
+        "uri" : "spotify:artist:5QEZ8qPZSxIvzrkJCxlsn7"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/00utVt9wQ6aEGoiNje6DTk"
+      },
+      "href" : "https://api.spotify.com/v1/albums/00utVt9wQ6aEGoiNje6DTk",
+      "id" : "00utVt9wQ6aEGoiNje6DTk",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2736173a00e147fa75f19fb77ce",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e026173a00e147fa75f19fb77ce",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048516173a00e147fa75f19fb77ce",
+        "width" : 64
+      } ],
+      "name" : "Living Village People",
+      "release_date" : "2014-08-19",
+      "release_date_precision" : "day",
+      "total_tracks" : 9,
+      "type" : "album",
+      "uri" : "spotify:album:00utVt9wQ6aEGoiNje6DTk"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5QEZ8qPZSxIvzrkJCxlsn7"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5QEZ8qPZSxIvzrkJCxlsn7",
+        "id" : "5QEZ8qPZSxIvzrkJCxlsn7",
+        "name" : "Navy Gravy",
+        "type" : "artist",
+        "uri" : "spotify:artist:5QEZ8qPZSxIvzrkJCxlsn7"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/1qVyTvHFD3umVuILD8JgjX"
+      },
+      "href" : "https://api.spotify.com/v1/albums/1qVyTvHFD3umVuILD8JgjX",
+      "id" : "1qVyTvHFD3umVuILD8JgjX",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2737c701a07c80541c133fd47a9",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e027c701a07c80541c133fd47a9",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048517c701a07c80541c133fd47a9",
+        "width" : 64
+      } ],
+      "name" : "Shadows Of The Village People",
+      "release_date" : "2014-08-19",
+      "release_date_precision" : "day",
+      "total_tracks" : 11,
+      "type" : "album",
+      "uri" : "spotify:album:1qVyTvHFD3umVuILD8JgjX"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6A0fDIT1PphHIsNz4KfIK0"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6A0fDIT1PphHIsNz4KfIK0",
+        "id" : "6A0fDIT1PphHIsNz4KfIK0",
+        "name" : "Ameritz Karaoke Entertainment",
+        "type" : "artist",
+        "uri" : "spotify:artist:6A0fDIT1PphHIsNz4KfIK0"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0MmMwn6lpS0d5Rvm83m2DE"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0MmMwn6lpS0d5Rvm83m2DE",
+      "id" : "0MmMwn6lpS0d5Rvm83m2DE",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2738e877d1be15fab3215217ea8",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e028e877d1be15fab3215217ea8",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048518e877d1be15fab3215217ea8",
+        "width" : 64
+      } ],
+      "name" : "Karaoke (In the Style of Village People)",
+      "release_date" : "2012-07-26",
+      "release_date_precision" : "day",
+      "total_tracks" : 3,
+      "type" : "album",
+      "uri" : "spotify:album:0MmMwn6lpS0d5Rvm83m2DE"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3w8ftNBSD8y07n3MqUNjLV"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3w8ftNBSD8y07n3MqUNjLV",
+        "id" : "3w8ftNBSD8y07n3MqUNjLV",
+        "name" : "Ameritz Top Tributes",
+        "type" : "artist",
+        "uri" : "spotify:artist:3w8ftNBSD8y07n3MqUNjLV"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0giavJFaCHJuDqsmKr9MjQ"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0giavJFaCHJuDqsmKr9MjQ",
+      "id" : "0giavJFaCHJuDqsmKr9MjQ",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273eaee2b2898e42a5502c92f16",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02eaee2b2898e42a5502c92f16",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851eaee2b2898e42a5502c92f16",
+        "width" : 64
+      } ],
+      "name" : "Go West: A Tribute to Village People",
+      "release_date" : "2013-10-24",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:0giavJFaCHJuDqsmKr9MjQ"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0YoRyEhgJgdr2d0xHzArkG"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0YoRyEhgJgdr2d0xHzArkG",
+        "id" : "0YoRyEhgJgdr2d0xHzArkG",
+        "name" : "Anna Gramm",
+        "type" : "artist",
+        "uri" : "spotify:artist:0YoRyEhgJgdr2d0xHzArkG"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/16VjpKhm8H5ILAKTkgfsiE"
+      },
+      "href" : "https://api.spotify.com/v1/albums/16VjpKhm8H5ILAKTkgfsiE",
+      "id" : "16VjpKhm8H5ILAKTkgfsiE",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273dc473d2787958d348aec2b94",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02dc473d2787958d348aec2b94",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851dc473d2787958d348aec2b94",
+        "width" : 64
+      } ],
+      "name" : "Best Of The Village People (Karaoke Version)",
+      "release_date" : "2015-07-25",
+      "release_date_precision" : "day",
+      "total_tracks" : 4,
+      "type" : "album",
+      "uri" : "spotify:album:16VjpKhm8H5ILAKTkgfsiE"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1AhwA1BRY5gQMBkJtNCtuC"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1AhwA1BRY5gQMBkJtNCtuC",
+        "id" : "1AhwA1BRY5gQMBkJtNCtuC",
+        "name" : "All Star Tribute Band",
+        "type" : "artist",
+        "uri" : "spotify:artist:1AhwA1BRY5gQMBkJtNCtuC"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "UY", "UZ", "VC", "VN", "VU", "WS", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6TTAOrxpoPtIjWmljeZE3W"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6TTAOrxpoPtIjWmljeZE3W",
+      "id" : "6TTAOrxpoPtIjWmljeZE3W",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2737ecc6a377f84ec24437ffeb5",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e027ecc6a377f84ec24437ffeb5",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048517ecc6a377f84ec24437ffeb5",
+        "width" : 64
+      } ],
+      "name" : "A Tribute to Village People (Karaoke Version)",
+      "release_date" : "2012-08-31",
+      "release_date_precision" : "day",
+      "total_tracks" : 2,
+      "type" : "album",
+      "uri" : "spotify:album:6TTAOrxpoPtIjWmljeZE3W"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7dYZoYIoFYmSvzDKZxNVO0"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7dYZoYIoFYmSvzDKZxNVO0",
+        "id" : "7dYZoYIoFYmSvzDKZxNVO0",
+        "name" : "Cooltone Karaoke",
+        "type" : "artist",
+        "uri" : "spotify:artist:7dYZoYIoFYmSvzDKZxNVO0"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2COB9cFktqxI6sT1LsP2he"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2COB9cFktqxI6sT1LsP2he",
+      "id" : "2COB9cFktqxI6sT1LsP2he",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273c4316646e0dedab30b8ee9b2",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02c4316646e0dedab30b8ee9b2",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851c4316646e0dedab30b8ee9b2",
+        "width" : 64
+      } ],
+      "name" : "Y.M.C.A. (Originally Performed by Village People) [Karaoke Version]",
+      "release_date" : "2015-02-11",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:2COB9cFktqxI6sT1LsP2he"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6NiolfPLVjtGrOqFxPIR3n"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6NiolfPLVjtGrOqFxPIR3n",
+        "id" : "6NiolfPLVjtGrOqFxPIR3n",
+        "name" : "A Nice Vibe",
+        "type" : "artist",
+        "uri" : "spotify:artist:6NiolfPLVjtGrOqFxPIR3n"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4CX7ZMLYrvEeM99xTUHiz0"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4CX7ZMLYrvEeM99xTUHiz0",
+      "id" : "4CX7ZMLYrvEeM99xTUHiz0",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273913fee3dc8f5b9be7416959b",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02913fee3dc8f5b9be7416959b",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851913fee3dc8f5b9be7416959b",
+        "width" : 64
+      } ],
+      "name" : "Sing the Hits of Village People (Karaoke Version)",
+      "release_date" : "2014-07-09",
+      "release_date_precision" : "day",
+      "total_tracks" : 2,
+      "type" : "album",
+      "uri" : "spotify:album:4CX7ZMLYrvEeM99xTUHiz0"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5Jvi2TK5LJUqq31thj2xGZ"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5Jvi2TK5LJUqq31thj2xGZ",
+        "id" : "5Jvi2TK5LJUqq31thj2xGZ",
+        "name" : "Sing Strike Karaoke",
+        "type" : "artist",
+        "uri" : "spotify:artist:5Jvi2TK5LJUqq31thj2xGZ"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/59g2iZWr9kVZ9WCqLqrnAP"
+      },
+      "href" : "https://api.spotify.com/v1/albums/59g2iZWr9kVZ9WCqLqrnAP",
+      "id" : "59g2iZWr9kVZ9WCqLqrnAP",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2734c4749f4b62873c42b42b0df",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e024c4749f4b62873c42b42b0df",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048514c4749f4b62873c42b42b0df",
+        "width" : 64
+      } ],
+      "name" : "Y.M.C.A. (Karaoke Version) (Originally Performed By Village People)",
+      "release_date" : "2015-02-21",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:59g2iZWr9kVZ9WCqLqrnAP"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1Lc0W6fVtIyzVXEOV6BbYi"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1Lc0W6fVtIyzVXEOV6BbYi",
+        "id" : "1Lc0W6fVtIyzVXEOV6BbYi",
+        "name" : "Musical Creations Karaoke",
+        "type" : "artist",
+        "uri" : "spotify:artist:1Lc0W6fVtIyzVXEOV6BbYi"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0fsZNAx8ofYgWjhCkjktz1"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0fsZNAx8ofYgWjhCkjktz1",
+      "id" : "0fsZNAx8ofYgWjhCkjktz1",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273f1393d637cca670b8de94def",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02f1393d637cca670b8de94def",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851f1393d637cca670b8de94def",
+        "width" : 64
+      } ],
+      "name" : "Ymca (Originally Performed by the Village People) [Karaoke Version]",
+      "release_date" : "2015-07-13",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:0fsZNAx8ofYgWjhCkjktz1"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3CtgjasLNN3Ym8SHm5JuJn"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3CtgjasLNN3Ym8SHm5JuJn",
+        "id" : "3CtgjasLNN3Ym8SHm5JuJn",
+        "name" : "Singer's Edge Karaoke",
+        "type" : "artist",
+        "uri" : "spotify:artist:3CtgjasLNN3Ym8SHm5JuJn"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2n3l5HwATPhA5WYA1JP48a"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2n3l5HwATPhA5WYA1JP48a",
+      "id" : "2n3l5HwATPhA5WYA1JP48a",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2732ab687fc9d3d23b232248fa6",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e022ab687fc9d3d23b232248fa6",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048512ab687fc9d3d23b232248fa6",
+        "width" : 64
+      } ],
+      "name" : "Go West (Originally Performed by Village People) [Karaoke Version]",
+      "release_date" : "2014-06-25",
+      "release_date_precision" : "day",
+      "total_tracks" : 3,
+      "type" : "album",
+      "uri" : "spotify:album:2n3l5HwATPhA5WYA1JP48a"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1Lc0W6fVtIyzVXEOV6BbYi"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1Lc0W6fVtIyzVXEOV6BbYi",
+        "id" : "1Lc0W6fVtIyzVXEOV6BbYi",
+        "name" : "Musical Creations Karaoke",
+        "type" : "artist",
+        "uri" : "spotify:artist:1Lc0W6fVtIyzVXEOV6BbYi"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2sQe66YnKaZOmL72ajIcsF"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2sQe66YnKaZOmL72ajIcsF",
+      "id" : "2sQe66YnKaZOmL72ajIcsF",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273761440458f1f745c49722e30",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02761440458f1f745c49722e30",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851761440458f1f745c49722e30",
+        "width" : 64
+      } ],
+      "name" : "Ymca (Originally Performed by the Village People) [Karaoke Version]",
+      "release_date" : "2014-07-21",
+      "release_date_precision" : "day",
+      "total_tracks" : 2,
+      "type" : "album",
+      "uri" : "spotify:album:2sQe66YnKaZOmL72ajIcsF"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5Jvi2TK5LJUqq31thj2xGZ"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5Jvi2TK5LJUqq31thj2xGZ",
+        "id" : "5Jvi2TK5LJUqq31thj2xGZ",
+        "name" : "Sing Strike Karaoke",
+        "type" : "artist",
+        "uri" : "spotify:artist:5Jvi2TK5LJUqq31thj2xGZ"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3UjPzAwVajMEG8IZSizmkN"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3UjPzAwVajMEG8IZSizmkN",
+      "id" : "3UjPzAwVajMEG8IZSizmkN",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2735ad7f9fcf1bf0e1d1dd8b279",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e025ad7f9fcf1bf0e1d1dd8b279",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048515ad7f9fcf1bf0e1d1dd8b279",
+        "width" : 64
+      } ],
+      "name" : "Go West (Karaoke Version) (Originally Performed By Village People)",
+      "release_date" : "2015-03-02",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:3UjPzAwVajMEG8IZSizmkN"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0LoZeFrE9VQqqosIGhE2a4"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0LoZeFrE9VQqqosIGhE2a4",
+        "id" : "0LoZeFrE9VQqqosIGhE2a4",
+        "name" : "Sing Fire Karaoke",
+        "type" : "artist",
+        "uri" : "spotify:artist:0LoZeFrE9VQqqosIGhE2a4"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/5b8lDH8HycScOBVh41fYb3"
+      },
+      "href" : "https://api.spotify.com/v1/albums/5b8lDH8HycScOBVh41fYb3",
+      "id" : "5b8lDH8HycScOBVh41fYb3",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27379589ff6e8758eb773b7cb3e",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0279589ff6e8758eb773b7cb3e",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485179589ff6e8758eb773b7cb3e",
+        "width" : 64
+      } ],
+      "name" : "Go West (Karaoke Version) (Originally Performed By Village People)",
+      "release_date" : "2015-02-16",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:5b8lDH8HycScOBVh41fYb3"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7dYZoYIoFYmSvzDKZxNVO0"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7dYZoYIoFYmSvzDKZxNVO0",
+        "id" : "7dYZoYIoFYmSvzDKZxNVO0",
+        "name" : "Cooltone Karaoke",
+        "type" : "artist",
+        "uri" : "spotify:artist:7dYZoYIoFYmSvzDKZxNVO0"
+      } ],
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/62MA2mL1vPgHYiySo0TJMQ"
+      },
+      "href" : "https://api.spotify.com/v1/albums/62MA2mL1vPgHYiySo0TJMQ",
+      "id" : "62MA2mL1vPgHYiySo0TJMQ",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27337862b84de58e2e66dbc19dc",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0237862b84de58e2e66dbc19dc",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485137862b84de58e2e66dbc19dc",
+        "width" : 64
+      } ],
+      "name" : "Macho Man (Originally Performed by Village People) [Karaoke Version]",
+      "release_date" : "2015-02-11",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:62MA2mL1vPgHYiySo0TJMQ"
+    } ],
+    "limit" : 50,
+    "next" : "https://api.spotify.com/v1/search?query=village+people&type=album&offset=50&limit=50",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 77
+  }
+}

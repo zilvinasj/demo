@@ -1,57 +1,49 @@
 package com.demo.top.model.track;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonInclude(JsonInclude.Include.NON_ABSENT)
 public class Track {
 
-  private String artistName;
+  private Long popularity;
 
-  private Long artistId;
+  @JsonProperty("track_number")
+  private Long trackNumber;
 
-  private Long collectionId;
+  private String id;
 
-  private Long trackId;
+  private String name;
 
-  private String trackName;
-
-  public String getArtistName() {
-    return artistName;
+  public Long getTrackNumber() {
+    return trackNumber;
   }
 
-  public void setArtistName(String artistName) {
-    this.artistName = artistName;
+  public void setTrackNumber(Long trackNumber) {
+    this.trackNumber = trackNumber;
   }
 
-  public Long getArtistId() {
-    return artistId;
+  public String getId() {
+    return id;
   }
 
-  public void setArtistId(Long artistId) {
-    this.artistId = artistId;
+  public void setId(String id) {
+    this.id = id;
   }
 
-  public Long getCollectionId() {
-    return collectionId;
+  public String getName() {
+    return name;
   }
 
-  public void setCollectionId(Long collectionId) {
-    this.collectionId = collectionId;
+  public void setName(String name) {
+    this.name = name;
   }
 
-  public Long getTrackId() {
-    return trackId;
+  public Long getPopularity() {
+    return popularity;
   }
 
-  public void setTrackId(Long trackId) {
-    this.trackId = trackId;
-  }
-
-  public String getTrackName() {
-    return trackName;
-  }
-
-  public void setTrackName(String trackName) {
-    this.trackName = trackName;
+  public void setPopularity(Long popularity) {
+    this.popularity = popularity;
   }
 }

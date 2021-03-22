@@ -31,7 +31,7 @@ public class AlbumController {
         log.info("Searching for album: {}", albumName);
         List<Album> albumsByName = albumService.getAlbumsByName(albumName);
         log.debug("Returning albums for name: {}, artist: {}", albumName, albumsByName.stream()
-                .map(Album::getCollectionName)
+                .map(Album::getName)
                 .collect(Collectors.joining(",")));
 
         ApplicationAlbumResponse response = new ApplicationAlbumResponse();

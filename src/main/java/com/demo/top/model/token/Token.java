@@ -12,6 +12,15 @@ public class Token {
   private String expiresIn;
   private String scope;
 
+  public Token(String accessToken, String tokenType, String expiresIn, String scope) {
+    this.accessToken = accessToken;
+    this.tokenType = tokenType;
+    this.expiresIn = expiresIn;
+    this.scope = scope;
+  }
+
+  public Token() {}
+
   public String getAccessToken() {
     return accessToken;
   }

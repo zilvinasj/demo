@@ -1,0 +1,1344 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=kanye&type=artist&offset=0&limit=50",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
+        },
+        "followers": {
+          "href": null,
+          "total": 13539591
+        },
+        "genres": [
+          "chicago rap",
+          "rap"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5K4W6rqBFWDnAN6FQUkS6x",
+        "id": "5K4W6rqBFWDnAN6FQUkS6x",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/bd1c6fdf3705cf9b7d0c8ac8e7bbed98e31a1559",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/b1414e865a16bc0080085ee1901d0bfd19f83fcb",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ac5cb571c194ca5a942b8096618217839b901a76",
+            "width": 160
+          }
+        ],
+        "name": "Kanye West",
+        "popularity": 93,
+        "type": "artist",
+        "uri": "spotify:artist:5K4W6rqBFWDnAN6FQUkS6x"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7oJhVJjlj7XGwxltFl1RLy"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7oJhVJjlj7XGwxltFl1RLy",
+        "id": "7oJhVJjlj7XGwxltFl1RLy",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273c9febaf96086c0cb38724ea9",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02c9febaf96086c0cb38724ea9",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851c9febaf96086c0cb38724ea9",
+            "width": 64
+          }
+        ],
+        "name": "Kanye MC",
+        "popularity": 29,
+        "type": "artist",
+        "uri": "spotify:artist:7oJhVJjlj7XGwxltFl1RLy"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6azWn4KNFxkEiYyTobaZ1r"
+        },
+        "followers": {
+          "href": null,
+          "total": 98
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6azWn4KNFxkEiYyTobaZ1r",
+        "id": "6azWn4KNFxkEiYyTobaZ1r",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/952f1212645aa14e3888680ce968623c137dc9d1",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/1193af39204640d14388065cbf4d80f894dac13a",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/f38544475616d7504d63a7731c661228f971dd28",
+            "width": 160
+          }
+        ],
+        "name": "Kanye North",
+        "popularity": 34,
+        "type": "artist",
+        "uri": "spotify:artist:6azWn4KNFxkEiYyTobaZ1r"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/52AWnZLTEuIY9mtIsYCqVx"
+        },
+        "followers": {
+          "href": null,
+          "total": 9
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/52AWnZLTEuIY9mtIsYCqVx",
+        "id": "52AWnZLTEuIY9mtIsYCqVx",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27305d04f1209741f6c8e044576",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0205d04f1209741f6c8e044576",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485105d04f1209741f6c8e044576",
+            "width": 64
+          }
+        ],
+        "name": "Kanye Mc",
+        "popularity": 27,
+        "type": "artist",
+        "uri": "spotify:artist:52AWnZLTEuIY9mtIsYCqVx"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2BYfXvfV9YJR4orpk4PET2"
+        },
+        "followers": {
+          "href": null,
+          "total": 20
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/2BYfXvfV9YJR4orpk4PET2",
+        "id": "2BYfXvfV9YJR4orpk4PET2",
+        "images": [],
+        "name": "Kanye Omari West",
+        "popularity": 21,
+        "type": "artist",
+        "uri": "spotify:artist:2BYfXvfV9YJR4orpk4PET2"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7r2NkM1MZeoNLlLWU85EPb"
+        },
+        "followers": {
+          "href": null,
+          "total": 9
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7r2NkM1MZeoNLlLWU85EPb",
+        "id": "7r2NkM1MZeoNLlLWU85EPb",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27318f4f75dec6b66acdb549bdb",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0218f4f75dec6b66acdb549bdb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485118f4f75dec6b66acdb549bdb",
+            "width": 64
+          }
+        ],
+        "name": "Kanye Best",
+        "popularity": 19,
+        "type": "artist",
+        "uri": "spotify:artist:7r2NkM1MZeoNLlLWU85EPb"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7qFJXutlvcack4lDnjgcsc"
+        },
+        "followers": {
+          "href": null,
+          "total": 2108
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7qFJXutlvcack4lDnjgcsc",
+        "id": "7qFJXutlvcack4lDnjgcsc",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2732123c74219a082e857356b37",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e022123c74219a082e857356b37",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048512123c74219a082e857356b37",
+            "width": 64
+          }
+        ],
+        "name": "Kanye Ingram",
+        "popularity": 16,
+        "type": "artist",
+        "uri": "spotify:artist:7qFJXutlvcack4lDnjgcsc"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4ONvpd3lfGPTYGwsTZqXEC"
+        },
+        "followers": {
+          "href": null,
+          "total": 4
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4ONvpd3lfGPTYGwsTZqXEC",
+        "id": "4ONvpd3lfGPTYGwsTZqXEC",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273695a382ea6e36ffe3b139b75",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02695a382ea6e36ffe3b139b75",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851695a382ea6e36ffe3b139b75",
+            "width": 64
+          }
+        ],
+        "name": "Ndna-Bama & Kanye",
+        "popularity": 8,
+        "type": "artist",
+        "uri": "spotify:artist:4ONvpd3lfGPTYGwsTZqXEC"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6mMGwBxvpMVFVis9v9lypY"
+        },
+        "followers": {
+          "href": null,
+          "total": 122
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6mMGwBxvpMVFVis9v9lypY",
+        "id": "6mMGwBxvpMVFVis9v9lypY",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2730f358ceac7a2e159ad46a0b2",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e020f358ceac7a2e159ad46a0b2",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048510f358ceac7a2e159ad46a0b2",
+            "width": 64
+          }
+        ],
+        "name": "Kanye East",
+        "popularity": 8,
+        "type": "artist",
+        "uri": "spotify:artist:6mMGwBxvpMVFVis9v9lypY"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4T5EZb72wFh3lLUNlLE3V7"
+        },
+        "followers": {
+          "href": null,
+          "total": 26
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4T5EZb72wFh3lLUNlLE3V7",
+        "id": "4T5EZb72wFh3lLUNlLE3V7",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2738dcae01fe2c1ea4dfc8fed2d",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e028dcae01fe2c1ea4dfc8fed2d",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048518dcae01fe2c1ea4dfc8fed2d",
+            "width": 64
+          }
+        ],
+        "name": "Kanye West Instrumentalz",
+        "popularity": 4,
+        "type": "artist",
+        "uri": "spotify:artist:4T5EZb72wFh3lLUNlLE3V7"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0FhD8drd1fAI1SUi83vjTm"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0FhD8drd1fAI1SUi83vjTm",
+        "id": "0FhD8drd1fAI1SUi83vjTm",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273b64f0be40e587f7a3fb5f364",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02b64f0be40e587f7a3fb5f364",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851b64f0be40e587f7a3fb5f364",
+            "width": 64
+          }
+        ],
+        "name": "kanyereckless",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:0FhD8drd1fAI1SUi83vjTm"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5xMcX1WiPEq5BMw0Xz42Z4"
+        },
+        "followers": {
+          "href": null,
+          "total": 73
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5xMcX1WiPEq5BMw0Xz42Z4",
+        "id": "5xMcX1WiPEq5BMw0Xz42Z4",
+        "images": [],
+        "name": "Kanye West for KanMan Productions, Inc. and Krazy Kat Catalogue, Inc.",
+        "popularity": 16,
+        "type": "artist",
+        "uri": "spotify:artist:5xMcX1WiPEq5BMw0Xz42Z4"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0MOXNav5t8LBiVUO5hdwX8"
+        },
+        "followers": {
+          "href": null,
+          "total": 2
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0MOXNav5t8LBiVUO5hdwX8",
+        "id": "0MOXNav5t8LBiVUO5hdwX8",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2738a67b5772eac333d09f63e37",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e028a67b5772eac333d09f63e37",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048518a67b5772eac333d09f63e37",
+            "width": 64
+          }
+        ],
+        "name": "Kanyeezy",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:0MOXNav5t8LBiVUO5hdwX8"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5wUrFJpvNRKTXfV7lqDo2a"
+        },
+        "followers": {
+          "href": null,
+          "total": 28
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5wUrFJpvNRKTXfV7lqDo2a",
+        "id": "5wUrFJpvNRKTXfV7lqDo2a",
+        "images": [],
+        "name": "Kanye West prod. B.o.B",
+        "popularity": 5,
+        "type": "artist",
+        "uri": "spotify:artist:5wUrFJpvNRKTXfV7lqDo2a"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0Pg5sIfT8PoA0DlnfEzn17"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0Pg5sIfT8PoA0DlnfEzn17",
+        "id": "0Pg5sIfT8PoA0DlnfEzn17",
+        "images": [],
+        "name": "Kanyel",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:0Pg5sIfT8PoA0DlnfEzn17"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3HehKwXJdcK2SvVn4luVPT"
+        },
+        "followers": {
+          "href": null,
+          "total": 8
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3HehKwXJdcK2SvVn4luVPT",
+        "id": "3HehKwXJdcK2SvVn4luVPT",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273c5d9dee7422b565586d3887d",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02c5d9dee7422b565586d3887d",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851c5d9dee7422b565586d3887d",
+            "width": 64
+          }
+        ],
+        "name": "Kanye Kun",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:3HehKwXJdcK2SvVn4luVPT"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2ibb6orfgi8gXm7Ew658sF"
+        },
+        "followers": {
+          "href": null,
+          "total": 86
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/2ibb6orfgi8gXm7Ew658sF",
+        "id": "2ibb6orfgi8gXm7Ew658sF",
+        "images": [],
+        "name": "Kanye",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:2ibb6orfgi8gXm7Ew658sF"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0zeQXsQK4BSTQaisqhtIz8"
+        },
+        "followers": {
+          "href": null,
+          "total": 43
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0zeQXsQK4BSTQaisqhtIz8",
+        "id": "0zeQXsQK4BSTQaisqhtIz8",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273c06d379c182ec198f7339ced",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02c06d379c182ec198f7339ced",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851c06d379c182ec198f7339ced",
+            "width": 64
+          }
+        ],
+        "name": "Kanye Kent",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:0zeQXsQK4BSTQaisqhtIz8"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3ub7ApOyuGufAHHuO7jHqw"
+        },
+        "followers": {
+          "href": null,
+          "total": 7
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3ub7ApOyuGufAHHuO7jHqw",
+        "id": "3ub7ApOyuGufAHHuO7jHqw",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273da421dff642da54af9553a94",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02da421dff642da54af9553a94",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851da421dff642da54af9553a94",
+            "width": 64
+          }
+        ],
+        "name": "Kanyenke",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:3ub7ApOyuGufAHHuO7jHqw"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7I1HMFuQVsbscqShWZpdRi"
+        },
+        "followers": {
+          "href": null,
+          "total": 3
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7I1HMFuQVsbscqShWZpdRi",
+        "id": "7I1HMFuQVsbscqShWZpdRi",
+        "images": [],
+        "name": "Kanyeria",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:7I1HMFuQVsbscqShWZpdRi"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0C10Ep6FOsuMtVRUzzOLda"
+        },
+        "followers": {
+          "href": null,
+          "total": 15
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0C10Ep6FOsuMtVRUzzOLda",
+        "id": "0C10Ep6FOsuMtVRUzzOLda",
+        "images": [],
+        "name": "Kanye Weezy",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:0C10Ep6FOsuMtVRUzzOLda"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7Jkddr0xNONHUpNYmHBrAj"
+        },
+        "followers": {
+          "href": null,
+          "total": 77
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7Jkddr0xNONHUpNYmHBrAj",
+        "id": "7Jkddr0xNONHUpNYmHBrAj",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/9ad88198665f8cacb71ccec45662ec1686b2c34c",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ed79a337563f97e26330746f2bf4ef0389b17f1f",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/e41e30c1278385d4f45e9cf8bbe43dea3275f857",
+            "width": 160
+          }
+        ],
+        "name": "Kanye South",
+        "popularity": 18,
+        "type": "artist",
+        "uri": "spotify:artist:7Jkddr0xNONHUpNYmHBrAj"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2ifIis1CGQTXsizgt0EdFU"
+        },
+        "followers": {
+          "href": null,
+          "total": 3
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/2ifIis1CGQTXsizgt0EdFU",
+        "id": "2ifIis1CGQTXsizgt0EdFU",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/85d4f357fa163a5aafb9dcb42c0d31bf68a32c8a",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/a96a8cad97e97ee174440749cecb609d9aead84b",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/6bfed8a96430d68abd889bfb5a5d25935d1506b6",
+            "width": 160
+          }
+        ],
+        "name": "Kanye Mills",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:2ifIis1CGQTXsizgt0EdFU"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/097HhErtwU8rl6s4GOPCy3"
+        },
+        "followers": {
+          "href": null,
+          "total": 8
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/097HhErtwU8rl6s4GOPCy3",
+        "id": "097HhErtwU8rl6s4GOPCy3",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/03f2e5fbbea06856a216a4f355260bc15e37354c",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/5c6a8b6ccfca2fc66081a4347f77101ea430831d",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/9fde2c98ef59934e6a6f0160c33dd008279b18e4",
+            "width": 160
+          }
+        ],
+        "name": "Kanye MC",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:097HhErtwU8rl6s4GOPCy3"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0lBWtVe6WTVrKlkErxeK7j"
+        },
+        "followers": {
+          "href": null,
+          "total": 1
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0lBWtVe6WTVrKlkErxeK7j",
+        "id": "0lBWtVe6WTVrKlkErxeK7j",
+        "images": [],
+        "name": "kanye oeste",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:0lBWtVe6WTVrKlkErxeK7j"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0s2L7ZekcaZgnLhGqQ6MwX"
+        },
+        "followers": {
+          "href": null,
+          "total": 50
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0s2L7ZekcaZgnLhGqQ6MwX",
+        "id": "0s2L7ZekcaZgnLhGqQ6MwX",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273e1d24c3e44e77a2b26e79810",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02e1d24c3e44e77a2b26e79810",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851e1d24c3e44e77a2b26e79810",
+            "width": 64
+          }
+        ],
+        "name": "Asad Kanye",
+        "popularity": 1,
+        "type": "artist",
+        "uri": "spotify:artist:0s2L7ZekcaZgnLhGqQ6MwX"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1lUo0Qb6Uhcmh2FEESjIoH"
+        },
+        "followers": {
+          "href": null,
+          "total": 4
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1lUo0Qb6Uhcmh2FEESjIoH",
+        "id": "1lUo0Qb6Uhcmh2FEESjIoH",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2738ae5029c931d21be634cd317",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e028ae5029c931d21be634cd317",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048518ae5029c931d21be634cd317",
+            "width": 64
+          }
+        ],
+        "name": "Kanyel King",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:1lUo0Qb6Uhcmh2FEESjIoH"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5VfN9GpkWTdZmR1JXZidDn"
+        },
+        "followers": {
+          "href": null,
+          "total": 12
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5VfN9GpkWTdZmR1JXZidDn",
+        "id": "5VfN9GpkWTdZmR1JXZidDn",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/3f3592ac7610d61933b29b0809a190792d5801f7",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/e0b67aaf2338a8c24ee2453125f4bd7f95506035",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/5bc6d2cc99b83dbfc63dd5e03c3de043a390b858",
+            "width": 160
+          }
+        ],
+        "name": "Kanye and The Noise",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:5VfN9GpkWTdZmR1JXZidDn"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1rB4tKfsn2mClKrrqW65R9"
+        },
+        "followers": {
+          "href": null,
+          "total": 1
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1rB4tKfsn2mClKrrqW65R9",
+        "id": "1rB4tKfsn2mClKrrqW65R9",
+        "images": [],
+        "name": "Baby Kanye",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:1rB4tKfsn2mClKrrqW65R9"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/23Oquc4Hpymx3aqjTFJXBP"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/23Oquc4Hpymx3aqjTFJXBP",
+        "id": "23Oquc4Hpymx3aqjTFJXBP",
+        "images": [],
+        "name": "Jimmy Kanyela",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:23Oquc4Hpymx3aqjTFJXBP"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4vg9R69Rj5i4FP3URf2hpA"
+        },
+        "followers": {
+          "href": null,
+          "total": 89
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4vg9R69Rj5i4FP3URf2hpA",
+        "id": "4vg9R69Rj5i4FP3URf2hpA",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/f7b5e19cf5d6eae132f812b5583661e1d161e081",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/376f63ef0df51956c051addabe35e5950df719d1",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/c3f42080e2f644f06f65af9872825bd9a9e75e04",
+            "width": 160
+          }
+        ],
+        "name": "Lovato e Kanye",
+        "popularity": 2,
+        "type": "artist",
+        "uri": "spotify:artist:4vg9R69Rj5i4FP3URf2hpA"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2EaQeLh26iwrYvComsVm6X"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/2EaQeLh26iwrYvComsVm6X",
+        "id": "2EaQeLh26iwrYvComsVm6X",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273d85e35a47fb17d6fc56cb207",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02d85e35a47fb17d6fc56cb207",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851d85e35a47fb17d6fc56cb207",
+            "width": 64
+          }
+        ],
+        "name": "Kanye Tweera",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:2EaQeLh26iwrYvComsVm6X"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2Gatydc34zy1mHnLrd0Jm0"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/2Gatydc34zy1mHnLrd0Jm0",
+        "id": "2Gatydc34zy1mHnLrd0Jm0",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27399cff2214ec7ac63ae0dc952",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0299cff2214ec7ac63ae0dc952",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485199cff2214ec7ac63ae0dc952",
+            "width": 64
+          }
+        ],
+        "name": "Kanyee Draco",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:2Gatydc34zy1mHnLrd0Jm0"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7rCpeQgJIrKKo6gubCkMDK"
+        },
+        "followers": {
+          "href": null,
+          "total": 859
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7rCpeQgJIrKKo6gubCkMDK",
+        "id": "7rCpeQgJIrKKo6gubCkMDK",
+        "images": [],
+        "name": "Young Jeezy & Kanye",
+        "popularity": 11,
+        "type": "artist",
+        "uri": "spotify:artist:7rCpeQgJIrKKo6gubCkMDK"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3LvqV1zPf2rV7Bv4VCqQ7V"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3LvqV1zPf2rV7Bv4VCqQ7V",
+        "id": "3LvqV1zPf2rV7Bv4VCqQ7V",
+        "images": [],
+        "name": "Shillah Kanyere",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:3LvqV1zPf2rV7Bv4VCqQ7V"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3PibaeQ4IClOdMGcRkIGqt"
+        },
+        "followers": {
+          "href": null,
+          "total": 10
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3PibaeQ4IClOdMGcRkIGqt",
+        "id": "3PibaeQ4IClOdMGcRkIGqt",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27398bdb8e760f97982be2d4403",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0298bdb8e760f97982be2d4403",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485198bdb8e760f97982be2d4403",
+            "width": 64
+          }
+        ],
+        "name": "KANYE US",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:3PibaeQ4IClOdMGcRkIGqt"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3cS39MBUWAB85Hi9TqGiQk"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3cS39MBUWAB85Hi9TqGiQk",
+        "id": "3cS39MBUWAB85Hi9TqGiQk",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273296279a91c4a0b5623613086",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02296279a91c4a0b5623613086",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851296279a91c4a0b5623613086",
+            "width": 64
+          }
+        ],
+        "name": "Kanye Proctor",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:3cS39MBUWAB85Hi9TqGiQk"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4ydlEcut1wOt8FnrFPpfU5"
+        },
+        "followers": {
+          "href": null,
+          "total": 12
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4ydlEcut1wOt8FnrFPpfU5",
+        "id": "4ydlEcut1wOt8FnrFPpfU5",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27316cb13517b57120cbffe1656",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0216cb13517b57120cbffe1656",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485116cb13517b57120cbffe1656",
+            "width": 64
+          }
+        ],
+        "name": "Kanye Chainz",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:4ydlEcut1wOt8FnrFPpfU5"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/621r3imep1N1Y9q1U5ZV4T"
+        },
+        "followers": {
+          "href": null,
+          "total": 6
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/621r3imep1N1Y9q1U5ZV4T",
+        "id": "621r3imep1N1Y9q1U5ZV4T",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273f1cfb2cf777a19813cfe3ffa",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02f1cfb2cf777a19813cfe3ffa",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851f1cfb2cf777a19813cfe3ffa",
+            "width": 64
+          }
+        ],
+        "name": "1700 Kanye",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:621r3imep1N1Y9q1U5ZV4T"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6Idwl1KH1heUMtkQJAnuxq"
+        },
+        "followers": {
+          "href": null,
+          "total": 57
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6Idwl1KH1heUMtkQJAnuxq",
+        "id": "6Idwl1KH1heUMtkQJAnuxq",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/042d9560a8580a22d4d10c34e3450e569b5b8777",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/9995968804be5a23d2d4822d9215fc2205f911a1",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/dac6a941ea75e6fe388938101df0d6190bfd69a4",
+            "width": 160
+          }
+        ],
+        "name": "KING KANYEMBI",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6Idwl1KH1heUMtkQJAnuxq"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6RAgdZpnobqQG9G6RiPWrD"
+        },
+        "followers": {
+          "href": null,
+          "total": 4
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6RAgdZpnobqQG9G6RiPWrD",
+        "id": "6RAgdZpnobqQG9G6RiPWrD",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2730467aa68fab2d8071d7bdaa2",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e020467aa68fab2d8071d7bdaa2",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048510467aa68fab2d8071d7bdaa2",
+            "width": 64
+          }
+        ],
+        "name": "Kanye Wertbrook",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6RAgdZpnobqQG9G6RiPWrD"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6WkjM6fav86z0zubBDd4kG"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6WkjM6fav86z0zubBDd4kG",
+        "id": "6WkjM6fav86z0zubBDd4kG",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27359ea1e8417e9284ce092777b",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0259ea1e8417e9284ce092777b",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485159ea1e8417e9284ce092777b",
+            "width": 64
+          }
+        ],
+        "name": "Tibz Kanye",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6WkjM6fav86z0zubBDd4kG"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6rt1GevoAEs8s7yYLIVQTv"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6rt1GevoAEs8s7yYLIVQTv",
+        "id": "6rt1GevoAEs8s7yYLIVQTv",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27326fb3aa67970b34035c94e35",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0226fb3aa67970b34035c94e35",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485126fb3aa67970b34035c94e35",
+            "width": 64
+          }
+        ],
+        "name": "Kanye Foster",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6rt1GevoAEs8s7yYLIVQTv"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6vK0772GlUUGxfxTnBupYH"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6vK0772GlUUGxfxTnBupYH",
+        "id": "6vK0772GlUUGxfxTnBupYH",
+        "images": [],
+        "name": "Elizabeth Kanyema",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6vK0772GlUUGxfxTnBupYH"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6yRpSjS2tsPJCi1x3I7Us5"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [
+          "kenyan traditional"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6yRpSjS2tsPJCi1x3I7Us5",
+        "id": "6yRpSjS2tsPJCi1x3I7Us5",
+        "images": [],
+        "name": "Kanyense Muange",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6yRpSjS2tsPJCi1x3I7Us5"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7J52hkcEtfayYNFMIIf0D1"
+        },
+        "followers": {
+          "href": null,
+          "total": 7
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7J52hkcEtfayYNFMIIf0D1",
+        "id": "7J52hkcEtfayYNFMIIf0D1",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb4e13708618adfacf30fbadfb",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab676161000051744e13708618adfacf30fbadfb",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f1784e13708618adfacf30fbadfb",
+            "width": 160
+          }
+        ],
+        "name": "Kanye Taylor",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:7J52hkcEtfayYNFMIIf0D1"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7sE9C9HscVnTqNlO4k5yUl"
+        },
+        "followers": {
+          "href": null,
+          "total": 6
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7sE9C9HscVnTqNlO4k5yUl",
+        "id": "7sE9C9HscVnTqNlO4k5yUl",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273f860da6c06cb97963361f7c9",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02f860da6c06cb97963361f7c9",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851f860da6c06cb97963361f7c9",
+            "width": 64
+          }
+        ],
+        "name": "Young Kanye",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:7sE9C9HscVnTqNlO4k5yUl"
+      }
+    ],
+    "limit": 47,
+    "next": "https://api.spotify.com/v1/search?query=kanye&type=artist&offset=50&limit=50",
+    "offset": 0,
+    "previous": null,
+    "total": 50
+  }
+}

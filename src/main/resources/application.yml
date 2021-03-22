@@ -5,14 +5,16 @@ spring:
   datasource:
     platform: h2
     url: jdbc:h2:mem:top
+  lifecycle:
+    timeout-per-shutdown-phase: 10s
 
 
 top-application:
   spotify:
     url: https://api.spotify.com/v1/
     token-url: https://accounts.spotify.com/api/token
-    client-id: e0feab84d9d94934916dbc91ed85425c
-    client-secret: fa8ea27fbe4c42adb624566b34684ba9
+    client-id: 64c1254acb0f43c19a8d7487e6604f30
+    client-secret: 21ec224d2b60430da31c4d6930dbc392
 
 caching:
   specs:
@@ -30,4 +32,5 @@ management:
     health:
       enabled: true
       show-details: always
-
+server:
+  shutdown: graceful

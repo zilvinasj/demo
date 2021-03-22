@@ -30,9 +30,10 @@ public class ArtistController {
     public ResponseEntity<ApplicationArtistResponse> searchForArtist(@PathVariable String artistName) {
         log.info("Searching for artist: {}", artistName);
         List<Artist> artistsByName = artistService.getArtistsByName(artistName);
-        log.debug("Returning artists for name: {}, artist: {}", artistName, artistsByName.stream()
-                .map(Artist::getName)
-                .collect(Collectors.joining(",")));
+        String artistNames = artistsByName.stream()
+            .map(Artist::getName)
+            .collect(Collectors.joining(","));
+        log.debug("Returning artists for name: {}, artists: {}", artistName, artistNames);
 
         ApplicationArtistResponse response = new ApplicationArtistResponse();
         response.setArtists(artistsByName);

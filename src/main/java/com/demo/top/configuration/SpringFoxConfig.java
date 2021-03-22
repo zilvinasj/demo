@@ -20,7 +20,7 @@ public class SpringFoxConfig {
 
 
         ApiInfo apiInfo = new ApiInfoBuilder()
-                .description("Sample application for retrieving artists and their top albums from itunes")
+                .description("Sample application for retrieving artists and their top albums from Spotify")
                 .title("Top album demo")
                 .version("1.0")
                 .build();

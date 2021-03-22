@@ -17,12 +17,6 @@ public class TopExceptionHandler {
     private static final Logger log = LoggerFactory.getLogger(TopExceptionHandler.class);
 
     @ExceptionHandler
-    public ResponseEntity<Void> handle(UserNotFoundException e) {
-        log.error("Exception when trying to find user with id: {}", e.getUserId());
-        return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-    }
-
-    @ExceptionHandler
     public ResponseEntity<ErrorBody> handle(MissingServletRequestParameterException e) {
         log.error("User did not supply a parameter: {}", e.getParameterName());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ErrorBody(e.getMessage()));
