@@ -23,7 +23,7 @@ public class SpotifyArtistService implements ArtistService {
 
     @Cacheable(cacheNames = "artistCache", key = "#name", cacheManager = "cacheManager")
     public List<Artist> getArtistsByName(String name) {
-        log.info("No cache hit for artist with name: {}, calling itunes service", name);
+        log.info("No cache hit for artist with name: {}, calling Spotify service", name);
         return spotifyService.findArtists(name).getArtists().getItems();
     }
 }

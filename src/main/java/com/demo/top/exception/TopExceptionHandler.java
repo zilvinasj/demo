@@ -24,7 +24,7 @@ public class TopExceptionHandler {
 
     @ExceptionHandler
     public ResponseEntity<ErrorBody> handle(FailedDependencyException e) {
-        log.error("There is a problem with the Itunes gateway: {}", e.getMessage());
+        log.error("There is a problem with the Spotify gateway: {}", e.getMessage());
         return ResponseEntity.status(HttpStatus.FAILED_DEPENDENCY).body(new ErrorBody(e.getMessage()));
     }
 
