@@ -1,67 +1,74 @@
 package com.demo.top.model.artist;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import java.util.List;
 
-@Entity
 public class Artist {
 
     public Artist() { }
 
     private Artist(ArtistBuilder artistBuilder) {
-        this.amgArtistId = artistBuilder.amgArtistId;
-        this.artistId = artistBuilder.artistId;
-        this.artistName = artistBuilder.artistName;
+        this.name = artistBuilder.name;
+        this.id = artistBuilder.id;
+        this.popularity = artistBuilder.popularity;
     }
 
-    private String artistName;
+    private String name;
     // Might be unnecessary
-    private Long artistId;
+    private String id;
 
-    @Id
-    private Long amgArtistId;
+    private List<String> genres;
 
-    public String getArtistName() {
-        return artistName;
+    private Long popularity;
+
+    public String getName() {
+        return name;
     }
 
-    public void setArtistName(String artistName) {
-        this.artistName = artistName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public Long getArtistId() {
-        return artistId;
+    public String getId() {
+        return id;
     }
 
-    public void setArtistId(Long artistId) {
-        this.artistId = artistId;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public Long getAmgArtistId() {
-        return amgArtistId;
+    public Long getPopularity() {
+        return popularity;
     }
 
-    public void setAmgArtistId(Long amgArtistId) {
-        this.amgArtistId = amgArtistId;
+    public void setPopularity(Long popularity) {
+        this.popularity = popularity;
+    }
+
+    public List<String> getGenres() {
+        return genres;
+    }
+
+    public void setGenres(List<String> genres) {
+        this.genres = genres;
     }
 
     public static class ArtistBuilder {
-        private String artistName;
-        private Long artistId;
-        private Long amgArtistId;
+        private String name;
+        private String id;
+        private Long popularity;
 
-        public ArtistBuilder artistName(String artistName) {
-            this.artistName = artistName;
+        public ArtistBuilder name(String name) {
+            this.name = name;
             return this;
         }
 
-        public ArtistBuilder artistId(Long artistId) {
-            this.artistId = artistId;
+        public ArtistBuilder id(String id) {
+            this.id = id;
             return this;
         }
 
-        public ArtistBuilder amgArtistId(Long amgArtistId) {
-            this.amgArtistId = amgArtistId;
+        public ArtistBuilder popularity(Long popularity) {
+            this.popularity = popularity;
             return this;
         }
 

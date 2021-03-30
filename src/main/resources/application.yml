@@ -5,11 +5,16 @@ spring:
   datasource:
     platform: h2
     url: jdbc:h2:mem:top
+  lifecycle:
+    timeout-per-shutdown-phase: 10s
 
 
 top-application:
-  itunes:
-    url: https://itunes.apple.com
+  spotify:
+    url: https://api.spotify.com/v1/
+    token-url: https://accounts.spotify.com/api/token
+    client-id: 64c1254acb0f43c19a8d7487e6604f30
+    client-secret: 21ec224d2b60430da31c4d6930dbc392
 
 caching:
   specs:
@@ -20,4 +25,12 @@ caching:
       timeout: 30
       max: 200
 
-
+management:
+  endpoints:
+    enabled-by-default: true
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+server:
+  shutdown: graceful

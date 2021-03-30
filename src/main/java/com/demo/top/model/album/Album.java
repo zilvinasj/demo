@@ -1,77 +1,53 @@
 package com.demo.top.model.album;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-
-import java.net.URL;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonInclude(JsonInclude.Include.NON_ABSENT)
 public class Album {
 
-    public Album(AlbumBuilder albumBuilder) {
-        this.collectionName = albumBuilder.collectionName;
-        this.collectionId = albumBuilder.collectionId;
-        this.artworkUrl60 = albumBuilder.artworkUrl60;
-    }
-
     public Album() {}
 
-    private String collectionName;
+    private String name;
 
-    private Long collectionId;
+    private String id;
 
-    private URL artworkUrl60;
+    @JsonProperty("total_tracks")
+    private Long totalTracks;
 
-    public String getCollectionName() {
-        return collectionName;
+    @JsonProperty("release_date")
+    private String date;
+
+    public String getName() {
+        return name;
     }
 
-    public void setCollectionName(String collectionName) {
-        this.collectionName = collectionName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public Long getCollectionId() {
-        return collectionId;
+    public String getId() {
+        return id;
     }
 
-    public void setCollectionId(Long collectionId) {
-        this.collectionId = collectionId;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public URL getArtworkUrl60() {
-        return artworkUrl60;
+    public Long getTotalTracks() {
+        return totalTracks;
     }
 
-    public void setArtworkUrl60(URL artworkUrl60) {
-        this.artworkUrl60 = artworkUrl60;
+    public void setTotalTracks(Long totalTracks) {
+        this.totalTracks = totalTracks;
     }
 
-    public static class  AlbumBuilder {
+    public String getDate() {
+        return date;
+    }
 
-        private String collectionName;
-
-        private Long collectionId;
-
-        private URL artworkUrl60;
-
-        public AlbumBuilder collectionName(String collectionName) {
-            this.collectionName = collectionName;
-            return this;
-        }
-
-        public AlbumBuilder collectionId(Long collectionId) {
-            this.collectionId = collectionId;
-            return this;
-        }
-
-        public AlbumBuilder artworkUrl60(URL artworkUrl60) {
-            this.artworkUrl60 = artworkUrl60;
-            return this;
-        }
-
-        public Album build() {
-            return new Album(this);
-        }
-
+    public void setDate(String date) {
+        this.date = date;
     }
 
 }
